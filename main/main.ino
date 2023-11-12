@@ -6,6 +6,9 @@
 #define accPin 3
 #define RFIDPin 4
 
+// CONTROL ONLY ONE SENSOR -> !!!! change to 0 if want to use all the code !!!!
+#define SINGLE_CHECK 1
+
 // GENERAL VARIABLES DEFINITION
 #define DELAY_VIB 300000 // slower if the car has start and stop
 #define DELAY_ACC 300000 // accelerometer delay must be slower than the others two
@@ -42,31 +45,36 @@ void setup() {
 
 void loop() {
   
-  if(state = OFF){
+  if (SINGLE_CHECK) {
 
-    // checking if the driver is inside the car or the cra is moving
-    
-    if( !(is_vibrating) ){
-      state = delay_and_check(DELAY_VIB);
-    } else if( !(is_accelerating) ){
-      state = delay_and_check(DELAY_ACC);
-    } else if( !(RFID_check) ){
-      state = delay_and_check(DELAY_RFID);
-    }
-    
-  } else if(state = ON){
+    Serial.println(check_only(vibPin));
+
+  }else{
+      if(state = OFF){
+
+      // checking if the driver is inside the car or the cra is moving
+      
+      if( !(is_vibrating) ){
+        state = delay_and_check(DELAY_VIB);
+      } else if( !(is_accelerating) ){
+        state = delay_and_check(DELAY_ACC);
+      } else if( !(RFID_check) ){
+        state = delay_and_check(DELAY_RFID);
+      }
+      
+    } else if(state = ON){
 
 
 
-    // time shutdown of the system -> if the system does not detect a child in the given time it shuts down automatically
-    delay(SHUTDOWN_DELAY); 
-    shut_t = shut_t + 1;
-    if ( state != CHILD_DETECTED && shut_t == SHUTDOWN_TIME) {
-      state = OFF;
-      shut_t = 0;
+      // time shutdown of the system -> if the system does not detect a child in the given time it shuts down automatically
+      delay(SHUTDOWN_DELAY); 
+      shut_t = shut_t + 1;
+      if ( state != CHILD_DETECTED && shut_t == SHUTDOWN_TIME) {
+        state = OFF;
+        shut_t = 0;
+      }
     }
   }
- 
 }
 
 
@@ -116,6 +124,20 @@ int delay_and_check(int T){
     return ON;
   }else{
     return OFF;
+  } 
+}
+
+int check_only(int type){
+  switch (type){
+    case vibPin:
+      return is_vibrating();
+      break;
+    case accPin:
+      return is_accelerating();
+      break;
+    case RFIDPin:
+      return RFID_check();
+      break;
   }
 }
 
