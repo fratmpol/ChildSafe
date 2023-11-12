@@ -14,7 +14,7 @@ int press3 = 0;
 
 
 void setup(){
-    Serial.begin(9600);
+    Serial.begin(115200);
     pinMode(led1Pin,OUTPUT);
     pinMode(button1Pin,INPUT);
     pinMode(led2Pin,OUTPUT);
@@ -48,5 +48,8 @@ void loop() {
         digitalWrite(led3Pin,LOW);
         Serial.println("NOT PRESSED 3");
     }
-    delay(100);
+    if (1){
+        Serial.println("STAMPA");
+    }
+    delay(1000);
 }
