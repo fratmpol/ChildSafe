@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+
 // PIN DEFINITIONS
 #define VCCSensPin 1
 #define vibPin 2
@@ -19,27 +19,6 @@ int state = 0;
 // sensor alimentation state
 int VCCSens = 0;
 
-
-//Function declaration
-
-// system switch
-
-
-#line 23 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-void setup();
-#line 31 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-void loop();
-#line 57 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-void system_switch(int sswitch);
-#line 69 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-int is_vibrating(void);
-#line 83 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-int RFID_check(void);
-#line 87 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-int is_accelerating(void);
-#line 91 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
-int delay_and_check(int T);
-#line 23 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
 void setup() {
   // put your setup code here, to run once:
   pinMode(vibPin,INPUT);
