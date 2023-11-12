@@ -6,7 +6,10 @@
 #define accPin 3
 
 // GENERAL VARIABLES DEFINITION
-#define DELAY 300000
+#define DELAY_VIB 300000
+#define DELAY_ACC 300000
+#define DELAY_RFID 300000
+
 
 // STATE DEFINITIONS
 #define OFF 0
@@ -50,15 +53,15 @@ void loop() {
   if(state = OFF){
     
     if( !(is_vibrating) ){
-      state = delay_and_check(DELAY);
+      state = delay_and_check(DELAY_VIB);
     }
 
     if( !(is_accelerating) ){
-      state = delay_and_check(DELAY);
+      state = delay_and_check(DELAY_ACC);
     }
 
     if( !(RFID_check) ){
-      state = delay_and_check(DELAY);
+      state = delay_and_check(DELAY_RFID);
     }
     
   }
