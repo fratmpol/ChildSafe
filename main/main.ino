@@ -1,0 +1,116 @@
+#include <Arduino.h>
+#line 1 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+// PIN DEFINITIONS
+#define VCCSensPin 1
+#define vibPin 2
+#define accPin 3
+
+// GENERAL VARIABLES DEFINITION
+#define DELAY 300000
+
+// STATE DEFINITIONS
+#define OFF 0
+#define ON 1
+// system state variable
+int state = 0;
+// sensor alimentation state
+int VCCSens = 0;
+
+
+//Function declaration
+
+// system switch
+
+
+#line 23 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+void setup();
+#line 31 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+void loop();
+#line 57 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+void system_switch(int sswitch);
+#line 69 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+int is_vibrating(void);
+#line 83 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+int RFID_check(void);
+#line 87 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+int is_accelerating(void);
+#line 91 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+int delay_and_check(int T);
+#line 23 "/Users/francescopolcri/Library/CloudStorage/OneDrive-PolitecnicodiMilano/Esami in preparazione/Digital System/Digital Project/Digital-Project/main/main.ino"
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(vibPin,INPUT);
+  pinMode(VCCSensPin,OUTPUT);
+  Serial.begin(9600);
+  Serial.println("-------STARTING-------");
+}
+
+void loop() {
+  
+  if(state = OFF){
+    
+    if( !(is_vibrating) ){
+      state = delay_and_check(DELAY);
+    }
+
+    if( !(is_accelerating) ){
+      state = delay_and_check(DELAY);
+    }
+
+    if( !(RFID_check) ){
+      state = delay_and_check(DELAY);
+    }
+    
+  }
+
+  
+  if(state = ON){
+    
+  }
+ 
+}
+
+
+void system_switch(int sswitch){
+  if(sswitch = ON){
+    state = ON;
+    digitalWrite(VCCSensPin,HIGH);
+  }else if(sswitch = OFF){
+    state = OFF;
+    digitalWrite(VCCSensPin,LOW);
+  }else{
+    Serial.println("Error: system not switched");
+  }
+}
+
+int is_vibrating(void){
+  int out1 = 0;
+  int out2 = 0;
+  out1 = digitalRead(vibPin);
+  out2 = digitalRead(vibPin);
+  if(out1 != out2){
+    return 1;
+  }else if(out1 == out2){
+    return 0;
+  }else{
+    Serial.println("Error: vibration not detected");
+  }
+}
+
+int RFID_check(void){
+  
+}
+
+int is_accelerating(void){
+  
+}
+
+int delay_and_check(int T){
+  delay(T);
+  if ( !(is_vibrating) && !(RFID_check) && !(is_accelerating) ) {
+    return ON;
+  }else{
+    return OFF;
+  }
+}
+
