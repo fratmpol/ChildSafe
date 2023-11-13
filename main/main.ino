@@ -1,13 +1,14 @@
 #include <Arduino.h>
+#include<Wire.h>
 
 // PIN DEFINITIONS
 #define VCCSensPin 1
-#define vibPin 2
+#define vibPin 7
 #define accPin 3
 #define RFIDPin 4
 
 // CONTROL ONLY ONE SENSOR -> !!!! change to 0 if want to use all the code !!!!
-#define SINGLE_CHECK 1
+#define SINGLE_CHECK 0
 
 // GENERAL VARIABLES DEFINITION
 #define DELAY_VIB 300000 // slower if the car has start and stop
@@ -23,7 +24,7 @@
 #define ON 1
 #define CHILD_DETECTED 2
 // system state variable
-int state = 0;
+int state = OFF;
 // sensor alimentation state
 int VCCSens = 0;
 // shutdown timer variable
@@ -32,7 +33,18 @@ int shut_t = 0;
 int cont_t = 0;
 
 
+/// accelerometer variables
+const int MPU = 0x68; // I2C address of the MPU-6050
+int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
+
+
 void setup() {
+  /// accelerometer setup
+  Wire.begin();
+  Wire.beginTransmission(MPU);
+  Wire.write(0x6B);  // PWR_MGMT_1 register
+  Wire.write(0);     // set to zero (wakes up the MPU-6050)
+  Wire.endTransmission(true);
   // put your setup code here, to run once:
   pinMode(vibPin,INPUT);
   pinMode(VCCSensPin,OUTPUT);
@@ -44,26 +56,40 @@ void setup() {
 
 
 void loop() {
-  
+  state = OFF;
   if (SINGLE_CHECK) {
 
     Serial.println(check_only(vibPin));
+    Serial.println("---SINGLE CHECK---");
 
   }else{
-      if(state = OFF){
+      if(state == OFF){
 
       // checking if the driver is inside the car or the cra is moving
       
-      if( !(is_vibrating) ){
-        state = delay_and_check(DELAY_VIB);
-      } else if( !(is_accelerating) ){
-        state = delay_and_check(DELAY_ACC);
-      } else if( !(RFID_check) ){
-        state = delay_and_check(DELAY_RFID);
-      }
+      //if( !(is_vibrating) ){
+      //  state = delay_and_check(DELAY_VIB);
+      //} else if( !(is_accelerating) ){
+      //  state = delay_and_check(DELAY_ACC);
+      //} else if( !(RFID_check) ){
+      //  state = delay_and_check(DELAY_RFID);
+      //}
+      Wire.beginTransmission(MPU);
+      Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
+      Wire.endTransmission(false);
+      Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
+      AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
+      AcY = Wire.read() << 8 | Wire.read(); // 0x3D (ACCEL_YOUT_H) & 0x3E (ACCEL_YOUT_L)
+      AcZ = Wire.read() << 8 | Wire.read();
+      Serial.print("Accelerometer: ");
+      Serial.print("X = "); Serial.print(AcX);
+      Serial.print(" | Y = "); Serial.print(AcY);
+      Serial.print(" | Z = "); Serial.println(AcZ);
+      Serial.println("Vibrometer: ");
+      Serial.println(is_vibrating());
       
-    } else if(state = ON){
-
+    } else if(state == ON){
+      Serial.print("ON");
 
 
       // time shutdown of the system -> if the system does not detect a child in the given time it shuts down automatically
@@ -97,7 +123,9 @@ int is_vibrating(void){
   int out1 = 0;
   int out2 = 0;
   out1 = digitalRead(vibPin);
+  Serial.println(" (1: )"); Serial.print(out1);
   out2 = digitalRead(vibPin);
+  Serial.println(" (2: )"); Serial.print(out2);
   if(out1 != out2){
     return 1;
   }else if(out1 == out2){
@@ -114,7 +142,13 @@ int RFID_check(void){
 
 
 int is_accelerating(void){
-  
+  Wire.beginTransmission(MPU);
+  Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
+  AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
+  AcY = Wire.read() << 8 | Wire.read(); // 0x3D (ACCEL_YOUT_H) & 0x3E (ACCEL_YOUT_L)
+  AcZ = Wire.read() << 8 | Wire.read(); // 0x3F (ACCEL_ZOUT_H) & 0x40 (ACCEL_ZOUT_L)
 }
 
 
