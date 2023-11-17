@@ -138,8 +138,8 @@ int RFID_check(void){
 
 int is_accelerating(void){
 
-  int sum_prev = 0;
-  int sum = 0;
+  long int sum = 0;
+  long int sum_var = 0;
   
   for(int i = 0; i <N_READ; i++){
     prev_read[i] = read[i];
@@ -154,24 +154,20 @@ int is_accelerating(void){
     Serial.print("X = "); Serial.print(AcX);
     Serial.print(" | Y = "); Serial.print(AcY);
     Serial.print(" | Z = "); Serial.println(AcZ);
-    read[i] = sqrt(AcX*AcX+AcY*AcY+AcZ*AcZ);
+    read[i] = AcX;
     sum = sum + read[i];
-    sum_prev = sum_prev + prev_read[i];
   }
 
   int mean = sum/N_READ;
-  int prev_mean = sum_prev/N_READ;
-  Serial.print("mean: "); Serial.println(mean);
-  Serial.print("previous mean: "); Serial.println(prev_mean);
 
+  for(int i = 0; i<N_READ; i++){
 
-  if(abs(mean-prev_mean)>TRESH){
-    Serial.println("IS MOVING");
-    return 1;
-  }else{
-    Serial.println("NOT MOVING");
-    return 0;
+    sum_var = sum_var + ((read[i]-mean)*(read[i]-mean));
+
   }
+
+  int var = sqrt(sum_var/(N_READ-1));
+  Serial.print("variance: "); Serial.println(var);
 
 }
 
