@@ -8,7 +8,7 @@
 #define RFIDPin 4
 
 // CONTROL ONLY ONE SENSOR -> !!!! change to 0 if want to use all the code !!!!
-#define SINGLE_CHECK 0
+#define SINGLE_CHECK 1
 
 // GENERAL VARIABLES DEFINITION
 #define DELAY_VIB 300000 // slower if the car has start and stop
@@ -36,6 +36,10 @@ int cont_t = 0;
 /// accelerometer variables
 const int MPU = 0x68; // I2C address of the MPU-6050
 int16_t AcX, AcY, AcZ, Tmp, GyX, GyY, GyZ;
+#define N_READ 10
+#define TRESH 70
+int read[N_READ];
+int prev_read[N_READ];
 
 
 void setup() {
@@ -51,6 +55,10 @@ void setup() {
   Serial.begin(9600);
   Serial.println("-------STARTING-------");
   shut_t = 0;
+  for(int i = 0; i <N_READ; i++){
+    read[i] = 0;
+    prev_read[i] = 0;
+  }
 }
 
 
@@ -59,8 +67,8 @@ void loop() {
   state = OFF;
   if (SINGLE_CHECK) {
 
-    Serial.println(check_only(vibPin));
     Serial.println("---SINGLE CHECK---");
+    check_only(accPin);
 
   }else{
       if(state == OFF){
@@ -74,19 +82,6 @@ void loop() {
       //} else if( !(RFID_check) ){
       //  state = delay_and_check(DELAY_RFID);
       //}
-      Wire.beginTransmission(MPU);
-      Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
-      Wire.endTransmission(false);
-      Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
-      AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
-      AcY = Wire.read() << 8 | Wire.read(); // 0x3D (ACCEL_YOUT_H) & 0x3E (ACCEL_YOUT_L)
-      AcZ = Wire.read() << 8 | Wire.read();
-      Serial.print("Accelerometer: ");
-      Serial.print("X = "); Serial.print(AcX);
-      Serial.print(" | Y = "); Serial.print(AcY);
-      Serial.print(" | Z = "); Serial.println(AcZ);
-      Serial.println("Vibrometer: ");
-      Serial.println(is_vibrating());
       
     } else if(state == ON){
       Serial.print("ON");
@@ -142,13 +137,42 @@ int RFID_check(void){
 
 
 int is_accelerating(void){
-  Wire.beginTransmission(MPU);
-  Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
-  Wire.endTransmission(false);
-  Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
-  AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
-  AcY = Wire.read() << 8 | Wire.read(); // 0x3D (ACCEL_YOUT_H) & 0x3E (ACCEL_YOUT_L)
-  AcZ = Wire.read() << 8 | Wire.read(); // 0x3F (ACCEL_ZOUT_H) & 0x40 (ACCEL_ZOUT_L)
+
+  int sum_prev = 0;
+  int sum = 0;
+  
+  for(int i = 0; i <N_READ; i++){
+    prev_read[i] = read[i];
+    Wire.beginTransmission(MPU);
+    Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
+    Wire.endTransmission(false);
+    Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
+    AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
+    AcY = Wire.read() << 8 | Wire.read(); // 0x3D (ACCEL_YOUT_H) & 0x3E (ACCEL_YOUT_L)
+    AcZ = Wire.read() << 8 | Wire.read(); // 0x3F (ACCEL_ZOUT_H) & 0x40 (ACCEL_ZOUT_L)
+    Serial.print("Accelerometer: ");
+    Serial.print("X = "); Serial.print(AcX);
+    Serial.print(" | Y = "); Serial.print(AcY);
+    Serial.print(" | Z = "); Serial.println(AcZ);
+    read[i] = sqrt(AcX*AcX+AcY*AcY+AcZ*AcZ);
+    sum = sum + read[i];
+    sum_prev = sum_prev + prev_read[i];
+  }
+
+  int mean = sum/N_READ;
+  int prev_mean = sum_prev/N_READ;
+  Serial.print("mean: "); Serial.println(mean);
+  Serial.print("previous mean: "); Serial.println(prev_mean);
+
+
+  if(abs(mean-prev_mean)>TRESH){
+    Serial.println("IS MOVING");
+    return 1;
+  }else{
+    Serial.println("NOT MOVING");
+    return 0;
+  }
+
 }
 
 
