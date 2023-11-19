@@ -1,0 +1,604 @@
+
+0 (2: )
+00
+Accelerometer: X = 2244 | Y = 412 | Z = -16604
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 368 | Z = -16656
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2412 | Y = 416 | Z = -16556
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2264 | Y = 412 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 | Y = 400 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 360 | Z = -16648
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2316 | Y = 440 | Z = -16564
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 484 | Z = -16612
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 396 | Z = -16544
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2288 | Y = 436 | Z = -16596
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 432 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2348 | Y = 380 | Z = -16560
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2296 | Y = 372 | Z = -16644
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 368 | Z = -16556
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2344 | Y = 424 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2272 | Y = 424 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2336 | Y = 396 | Z = -16600
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 452 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2340 | Y = 420 | Z = -16576
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2316 | Y = 396 | Z = -16600
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2324 | Y = 460 | Z = -16620
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2248 | Y = 424 | Z = -16584
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2336 | Y = 432 | Z = -16576
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 424 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 372 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2376 | Y = 448 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2356 | Y = 488 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 448 | Z = -16568
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2356 | Y = 460 | Z = -16552
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2392 | Y = 424 | Z = -16608
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 | Y = 384 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2304 | Y = 384 | Z = -16632
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2292 | Y = 408 | Z = -16560
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 380 | Z = -16560
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2256 | Y = 380 | Z = -16632
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 488 | Z = -16596
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 420 | Z = -16620
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 380 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 416 | Z = -16636
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2296 | Y = 428 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 | Y = 408 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2352 | Y = 408 | Z = -16548
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2356 | Y = 484 | Z = -16556
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2324 | Y = 408 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 380 | Z = -16544
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 444 | Z = -16572
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 392 | Z = -16584
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2380 | Y = 416 | Z = -16548
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2336 | Y = 476 | Z = -16596
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2228 | Y = 436 | Z = -16604
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2344 | Y = 404 | Z = -16576
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2288 | Y = 400 | Z = -16548
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2364 | Y = 400 | Z = -16596
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2360 | Y = 396 | Z = -16652
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2348 | Y = 428 | Z = -16568
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 444 | Z = -16664
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2288 | Y = 404 | Z = -16600
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 388 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 460 | Z = -16660
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2384 | Y = 460 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 428 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2340 | Y = 444 | Z = -16580
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2256 | Y = 420 | Z = -16612
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 432 | Z = -16584
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2304 | Y = 504 | Z = -16624
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2340 | Y = 400 | Z = -16620
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 400 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 424 | Z = -16632
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2352 | Y = 388 | Z = -16532
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2336 | Y = 420 | Z = -16568
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2368 | Y = 360 | Z = -16564
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2292 | Y = 380 | Z = -16608
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2400 | Y = 436 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2404 | Y = 380 | Z = -16600
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 408 | Z = -16532
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 432 | Z = -16540
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2368 | Y = 448 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 | Y = 436 | Z = -16624
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2292 | Y = 380 | Z = -16612
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 480 | Z = -16572
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 456 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 396 | Z = -16604
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 444 | Z = -16584
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 432 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 | Y = 448 | Z = -16608
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2328 | Y = 444 | Z = -16564
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2316 | Y = 420 | Z = -16576
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 356 | Z = -16592
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2268 | Y = 416 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2344 | Y = 472 | Z = -16560
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2284 | Y = 388 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2412 | Y = 392 | Z = -16648
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2340 | Y = 412 | Z = -16620
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 416 | Z = -16624
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 440 | Z = -16552
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2340 | Y = 424 | Z = -16624
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2344 | Y = 412 | Z = -16636
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 416 | Z = -16672
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 396 | Z = -16584
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 408 | Z = -16648
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2376 | Y = 408 | Z = -16652
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2400 | Y = 416 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2360 | Y = 412 | Z = -16636
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 388 | Z = -16532
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2316 | Y = 536 | Z = -16572
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2372 | Y = 392 | Z = -16608
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2312 | Y = 416 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2396 | Y = 428 | Z = -16564
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 372 | Z = -16588
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2272 | Y = 524 | Z = -16628
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2352 | Y = 436 | Z = -16616
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2308 | Y = 400 | Z = -16564
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2264 | Y = 424 | Z = -16620
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2276 | Y = 436 | Z = -16552
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2348 | Y = 472 | Z = -16660
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2332 | Y = 444 | Z = -16552
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2280 | Y = 376 | Z = -16556
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2336 | Y = 372 | Z = -16608
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2320 | Y = 500 | Z = -16600
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2264 | Y = 388 | Z = -16576
+Vibrometer: 
+ (1: )
+0 (2: )
+00
+Accelerometer: X = 2300 |
