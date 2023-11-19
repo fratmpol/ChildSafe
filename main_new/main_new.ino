@@ -5,7 +5,6 @@
 /// SYSTEM STATE DEFINITIONS ///
 
 #define OFF 0
-#define CHECK 3
 #define ON 1
 #define ALERT 2
 // state system variable
@@ -36,21 +35,13 @@ int start_acc_val[N_ACC];
 // variable to specify if its the first array of datas
 bool firstAccVal = 1;
 // 3 sigma of the standard deviation of the accelerometer
-#define START_ACC_3_SIGMA 50
+#define START_ACC_3_SIGMA 100
 
+/// Timer variables 
+#define START_TIMER 50 //[ms]
+int StarttimerSwitch = 0;
+int startTimer = 0;
 
-
-/// CHECKING DEFINITIONS ///
-
-/// Time delays before starting [ms]
-#define START_PIR_DELAY 5
-#define START_ACC_DELAY 5
-int check_delay = 0;
-// sensor that has activated the check state
-#define ACC 102
-#define PIR 101
-#define GENERAL 100
-int checkSens = 0;
 
 
 /// CPD DEFINITIONS ///
@@ -59,19 +50,55 @@ int checkSens = 0;
 #define SHUTDOWN_TIMER 10000
 int shutdownTimer = 0;
 
-/// CONTROL DEFINITIONS ///
+/// Control Timer [ms]
+#define CONTROL_TIMER 10000
+int controlTimer = 0;
+
+/// Control sensors Pins
+#define CONT_VIB_PIN 5
+#define CONT_TEMP_PIN A0
+#define CONT_ULTRA_PIN 6
+// number of control sensors
+#define N_CON 3
+// output of control sensors
+int controlVal[N_CON];
+
+/// Detection sensors Pins
+#define DET_PIR_1_PIN 7
+#define DET_PIR_2_PIN 8
+#define DET_RAD_1_PIN 9
+#define DET_RAD_2_PIN 10
+#define DET_CO2_PIN A0
+// number of detection sensors (type)
+#define N_TYPE_DET 3
+// number of detection sensors (total)
+#define N_DET 5
+
+/// output array of detection sensors
+int detVal[N_DET];
+
+// weights
+int weights[N_DET];
+
+/// Temperature sensor
+int Vo;
+const float R1 = 100000;  //fixed resistance of the tension partition 
+float logR2, R2, T;
+const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
+
+
 
 /// ALERT DEFINITIONS ///
 
 /// GENERAL ///
 
 /// Sensors array and number of sensor used
-#define N_SENS 1
-int sens[N_SENS] = {START_PIR_PIN};
+#define N_SENS 8
+int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
 int i = 0;
 int j = 0;
-
 int con = 0;
+
 
 
 
@@ -108,39 +135,59 @@ void loop(){
   
   switch(state){
     
+
     // OFF STATE
     case OFF:
-      checkSens = start_check_change(CHECK,GENERAL);
+      if( !(start_acc_change()) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
+        Serial.println("No accelerometer or PIR variation detected");
+        if( !(StarttimerSwitch) ){
+          Serial.println("TIMER STARTED");
+          StarttimerSwitch = 1; // initializating the timer
+          startTimer = START_TIMER;
+        }else if(StarttimerSwitch && startTimer == 0){
+          state = ON;
+          // variables reset
+          StarttimerSwitch = 0;
+          startTimer = 0;
+          //start detection sensor reset
+          firstAccVal = 0;
+          firstPIRVal = 0;
+          // shutdown timer inizialization
+          shutdownTimer = SHUTDOWN_TIMER;
+        }
+      }else{
+        Serial.println("STARTING: No variation");
+        state = OFF;
+        //Reset timer variables
+        StarttimerSwitch = 0;
+        startTimer = 0;
+      }
+      //timer countdown
+      if(StarttimerSwitch){
+        startTimer = startTimer - 1;
+        delay(1);
+      }
     break;
 
-    // CHECKING STATE
-    case CHECK:
-    int dummy = 0;
-      //selects the delay based on the sensor deactivated
-      if(check_delay == 0){
-        Serial.println("--WAITING--");
-        check_delay = delay_select(checkSens);
-      }
-      //countdown of the delay
-      check_delay = check_delay - 1;
-      delay(1000);
-      //checking for the start of the system
-      if(checkSens==ACC && start_acc_change()){
-        state = OFF;
-        check_delay = 0;
-      }else if(checkSens==PIR && start_PIR_change()){
-        state = OFF;
-        check_delay = 0;
-      }else if(check_delay == 0){
-        state = ON;
-        check_delay = 0;
-      }
-    break;
 
     // CPD STATE (ON STATE)
     case ON:
+      //control timer countdown
+      if(controlTimer == 0){
+        
+        controlTimer = CONTROL_TIMER;
+      }
+      if(shutdownTimer == 0){
+        state = OFF;
+      }
+      
 
 
+      //shutdown timer countdown
+      shutdownTimer = shutdownTimer - - 1;
+      // control timer countdown
+      controlTimer = controlTimer - 1;
+      delay(1);
     break;
 
     // ALERT STATE 
@@ -160,32 +207,9 @@ void loop(){
 
 
 
-
-
 /// FUNCTIONS ///
 
-
-
-// STARTING & CHECKING//
-
-// returns 0 if nothing has changed, 1 if PIR has changed and 2 if accelerometer has changed (LOGIC)
-int start_check_change(int retState,int mode){
-  if((mode == GENERAL || mode == ACC) && !(start_acc_change())){   //if the mode is selected and if the car is not moving 
-    Serial.println("STARTING: Accelerometer variation");
-    state = retState;
-    return ACC;
-  }else if((mode == GENERAL || mode == PIR) && !(start_PIR_change())){  //if it don't detect movement inside the cabinet
-    Serial.println("STARTING: PIR variation");
-    state = retState;
-    return PIR;
-  }else{
-    Serial.println("STARTING: No variation");
-    state = OFF;
-    return GENERAL;
-  }
-}
-
-
+// STARTING & CHECKING //
 
 // returns 0 if PIR changes from movement to not movement (TESTED)
 int start_PIR_change(void){
@@ -223,8 +247,6 @@ int start_PIR_change(void){
 
 
 }
-
-
 
 // returns 1 if standard deviation of accelerometer changes TESTED
 int start_acc_change(void){
@@ -282,15 +304,21 @@ int start_acc_change(void){
 }
 
 
+// CPD //
 
-// delay selection function 
-int delay_select(int sens){
-  if(sens == ACC){
-    return START_ACC_DELAY;
-  }else if(sens == PIR){
-    return START_PIR_DELAY;
-  }else{
-    Serial.println("Error: selection of the delay not specified correctly");
-    return 0;
-  }
+void weights_computation(void){
+
+}
+
+// gives out the temperature
+float control_temp_read(void){
+  Vo = analogRead(CONT_TEMP_PIN);
+  R2 = R1 * (1023.0 / (float)Vo - 1.0);
+  logR2 = log(R2);
+  T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
+  return T = T - 273.15;
+}
+
+int control_ultrasound_read(void){
+  
 }
