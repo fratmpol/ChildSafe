@@ -42,7 +42,7 @@ bool firstAccVal = 1;
 
 /// CHECKING DEFINITIONS ///
 
-/// Time delays before starting [ms]
+/// Time delays before starting [s]
 #define START_PIR_DELAY 5
 #define START_ACC_DELAY 5
 int check_delay = 0;
@@ -54,10 +54,6 @@ int checkSens = 0;
 
 
 /// CPD DEFINITIONS ///
-
-/// Shutdown timer [ms]
-#define SHUTDOWN_TIMER 10000
-int shutdownTimer = 0;
 
 /// CONTROL DEFINITIONS ///
 
@@ -72,6 +68,8 @@ int i = 0;
 int j = 0;
 
 int con = 0;
+
+
 
 
 
@@ -99,47 +97,40 @@ void setup(){
 
 
 void loop(){
-  if(con != 1){
-    Serial.print("--STATE: "); Serial.print(state); Serial.println(" --");
+  if(con!=1){
+    Serial.print("--- STATE: "); Serial.print(state); Serial.println("---");
     if(state == ON){
       con = 1;
     }
   }
   
+
   switch(state){
     
     // OFF STATE
     case OFF:
-      checkSens = start_check_change(CHECK,GENERAL);
+      checkSens = start_check_change_2(CHECK,GENERAL);
     break;
 
     // CHECKING STATE
     case CHECK:
-    int dummy = 0;
       //selects the delay based on the sensor deactivated
       if(check_delay == 0){
         Serial.println("--WAITING--");
-        check_delay = delay_select(checkSens);
+        check_delay = 5;
       }
       //countdown of the delay
       check_delay = check_delay - 1;
+      Serial.print("Delay"); Serial.println(check_delay);
       delay(1000);
       //checking for the start of the system
-      if(checkSens==ACC && start_acc_change()){
-        state = OFF;
-        check_delay = 0;
-      }else if(checkSens==PIR && start_PIR_change()){
-        state = OFF;
-        check_delay = 0;
-      }else if(check_delay == 0){
-        state = ON;
-        check_delay = 0;
+      if(check_delay == 0){
+        checkSens = start_check_change_2(ON,GENERAL);
       }
     break;
 
     // CPD STATE (ON STATE)
     case ON:
-
 
     break;
 
@@ -178,6 +169,20 @@ int start_check_change(int retState,int mode){
     Serial.println("STARTING: PIR variation");
     state = retState;
     return PIR;
+  }else{
+    Serial.println("STARTING: No variation");
+    state = OFF;
+    return GENERAL;
+  }
+}
+
+
+// variation of start_check_change
+int start_check_change_2(int retState,int mode){
+  if(!(start_PIR_change()) && !(start_acc_change())){   //if the mode is selected and if the car is not moving 
+    Serial.println("--> Nothing moving and Car still");
+    state = retState;
+    return GENERAL;
   }else{
     Serial.println("STARTING: No variation");
     state = OFF;
@@ -230,6 +235,7 @@ int start_PIR_change(void){
 int start_acc_change(void){
 
   float sum = 0;
+  Serial.print("Sum: "); Serial.println(sum); 
   // mean of the N_ACC datas
   long int mean = 0;
   // variance of the N_ACC datas
@@ -264,13 +270,15 @@ int start_acc_change(void){
 
   }
 
-  mean = sum/N_ACC; 
+  mean = sum/N_ACC;
+  Serial.print("Mean: "); Serial.println(mean); 
 
   sum = 0;
   for(i=0; i<N_ACC; i++){
     sum =  sum + pow(start_acc_val[i] - mean, 2);
   }
 
+  Serial.print("Variance: "); Serial.println(sum);
   dev = sqrt(sum/(N_ACC - 1));
   Serial.print("Accelerometer standard deviation: "); Serial.println(dev);
   
