@@ -9,7 +9,9 @@
 #define ALERT 2
 #define SLEEP 3
 // state system variable
-int state = OFF;
+int state = SLEEP;
+
+
 
 
 
@@ -36,19 +38,21 @@ int start_acc_val[N_ACC];
 // variable to specify if its the first array of datas
 bool firstAccVal = 1;
 // 3 sigma of the standard deviation of the accelerometer
-#define START_ACC_3_SIGMA 2000
+#define START_ACC_3_SIGMA 100
 
 /// Timer variables 
-#define START_TIMER 50 //[ms]
+#define START_TIMER 1000 //[ms]
 int StarttimerSwitch = 0;
 int startTimer = 0;
+
+
 
 
 
 /// CPD DEFINITIONS ///
 
 /// Shutdown timer [ms]
-#define SHUTDOWN_TIMER 10000
+#define SHUTDOWN_TIMER 1000
 int shutdownTimer = 0;
 
 /// Control Timer [ms]
@@ -78,6 +82,8 @@ int Vo;
 const float R1 = 100000;  //fixed resistance of the tension partition TO BE TUNED 
 float logR2, R2, T;
 const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
+//temperature treshold
+#define TRESH_TEMP 40   //centigrade degrees
 
 /// Ultrasound 
 // standard distance from the window
@@ -97,19 +103,38 @@ int Windows = 1;
 // treshold for vibrations to determine the weight of radar
 #define DET_ACC_TRESHOLD 100
 
+/// Radar and PIR
+// delay between the two radars in order to not have interfeherence
+#define INTERFEHERENCE_DELAY 10
+
+
+
 
 
 
 /// ALERT DEFINITIONS ///
 
+/// Pin definitions
+#define BUZZER_PIN 11
+#define BUTTON_PIN 12
+// button variables
+#define N_BUTTON 10
+int buttonVal[N_BUTTON];
+//buzzer frequency
+#define FREQUENCY 200   // can range from 0 to 255
+
+
+
+
+
+
 /// GENERAL ///
 
 /// Sensors array and number of sensor used
-#define N_SENS 8
-int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
+#define N_SENS 9
+int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN,BUTTON_PIN};
 int i = 0;
 int j = 0;
-int con = 0;
 
 
 
@@ -128,49 +153,55 @@ void setup(){
   pinMode(VCC,OUTPUT);
   //set the trigger pin to output
   pinMode(CONT_ULTRA_TRIG_PIN,OUTPUT);
+  //set the buzzer pin to output
+  pinMode(BUZZER_PIN,OUTPUT);
   // accelerometer initialization
   Wire.begin();
   Wire.beginTransmission(MPU);
   Wire.write(0x6B);  // PWR_MGMT_1 register
   Wire.write(0);     // set to zero (wakes up the MPU-6050)
   Wire.endTransmission(true);
+  // button values initialization
+  for(i=0;i<N_BUTTON;i++){
+    buttonVal[i] = 0;
+  }
 
 }
 
 
 
 void loop(){
-  if(con != 1){
-    Serial.print("--STATE: "); Serial.print(state); Serial.println(" --");
-    if(state == ON){
-      con = 1;
-    }
-  }
+  
+  Serial.print("--STATE: "); Serial.print(state); Serial.println(" --");
   
   switch(state){
     
 
     // OFF STATE
     case OFF:
-      if( !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
+      if(startTimer==0 && !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
+        
         Serial.println("No accelerometer or PIR variation detected");
+        
         if( !(StarttimerSwitch) ){
           Serial.println("TIMER STARTED");
           StarttimerSwitch = 1; // initializating the timer
           startTimer = START_TIMER;
         }else if(StarttimerSwitch && startTimer == 0){
+          Serial.println("TIMER ENDED");
           state = ON;
           // variables reset
           StarttimerSwitch = 0;
           startTimer = 0;
           //start detection sensor reset
-          firstAccVal = 0;
-          firstPIRVal = 0;
+          firstAccVal = 1;
+          firstPIRVal = 1;
           // shutdown timer inizialization
           shutdownTimer = SHUTDOWN_TIMER;
           //window check initialization
           checkWindows = 1;
         }
+
       }else{
         Serial.println("STARTING: No variation");
         state = OFF;
@@ -178,39 +209,75 @@ void loop(){
         StarttimerSwitch = 0;
         startTimer = 0;
       }
+
       //timer countdown
       if(StarttimerSwitch){
         startTimer = startTimer - 1;
         delay(1);
+        Serial.print("TIMER VALUE: "); Serial.println(startTimer);
       }
     break;
 
 
     // CPD STATE (ON STATE)
     case ON:
-      if(shutdownTimer == 0){
-        state = SLEEP;
-      }
-      
-      // determines only one time the weight of the CO2
-      if(checkWindows){
-         Windows = control_ultrasound_read();
-      }
-      if(Windows==CLOSED_WINDOW){
-        det[2] = CO2_detection();
-      }
+      // do the detection until the car is not moving or the driver has not re-entered
+      if( !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){
+        
+        /// CO2 DETECTION
+        // determines only one time the weight of the CO2
+        if(checkWindows){
+          Windows = control_ultrasound_read();
+          checkWindows = 0;
+        }
+        if(Windows==CLOSED_WINDOW){
+          det[2] = CO2_detection();
+        }
 
-      
-      
+        /// RADAR DETECTION
+        if( !(start_acc_change(DET_ACC_TRESHOLD)) ){
+          det[1] = rad_PIR_detection(DET_RAD_1_PIN,DET_RAD_2_PIN);
+        }
 
+        /// PIR DETECTION
+        if(control_temp_read() <= TRESH_TEMP){
+          det[0] = rad_PIR_detection(DET_PIR_1_PIN,DET_PIR_2_PIN);
+        }
+
+        /////// DETECTION OF THE CHILDREN ///////
+        for(i=0; i<N_DET; i++){
+          if(det[i]){
+            state = ALERT;
+          }
+        }
+
+      }else{
+        state = OFF;
+        //reset of CPD switches
+        checkWindows = 1;
+      }
 
       //shutdown timer countdown
       shutdownTimer = shutdownTimer-1;
       delay(1);
+      if(shutdownTimer == 0){
+        state = SLEEP;
+        firstAccVal = 1;
+        //reset of CPD switches
+        checkWindows = 1;
+      }
     break;
 
     // ALERT STATE 
     case ALERT:
+
+      analogWrite(BUZZER_PIN,FREQUENCY);
+      if(button_pressed()){
+        analogWrite(BUZZER_PIN,0);
+        state = SLEEP;
+      }
+
+      /////// MAY ADD NEW FEATURES
 
     break;
 
@@ -310,9 +377,9 @@ int start_acc_change(int tresh){
     Wire.write(0x3B);  // starting with register 0x3B (ACCEL_XOUT_H)
     Wire.endTransmission(false);
     Wire.requestFrom(MPU, 14, true); // request a total of 14 registers
-    start_acc_val[N_ACC-1] = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
+    AcX = Wire.read() << 8 | Wire.read(); // 0x3B (ACCEL_XOUT_H) & 0x3C (ACCEL_XOUT_L)
+    start_acc_val[N_ACC-1] = AcX/10;
     sum = sum + start_acc_val[N_ACC-1];
-
   }
 
   mean = sum/N_ACC; 
@@ -383,4 +450,37 @@ int CO2_detection(void){
     }
 }
 
+// returns 1 if something is moving (RADAR or PIR)
+int rad_PIR_detection(int pin1, int pin2){
 
+  int val1 = digitalRead(pin1);
+  delay(INTERFEHERENCE_DELAY);
+  int val2 = digitalRead(pin2);
+
+  if( val1 || val2 ){
+    return 1;
+  }else{
+    return 0;
+  }
+
+}
+
+
+/// ALERT ///
+
+// return 1 if the button is pressed
+int button_pressed(void){
+
+  for(i=1;i<N_BUTTON;i++){
+    buttonVal[i-1] = buttonVal[i];
+  }  
+  buttonVal[N_BUTTON-1] = digitalRead(BUTTON_PIN);
+  for(i=0;i<N_BUTTON;i++){
+    if(buttonVal[i]){
+      return 1;
+    }else{
+      return 0;
+    }
+  }
+
+}
