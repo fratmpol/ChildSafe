@@ -36,7 +36,7 @@ int start_acc_val[N_ACC];
 // variable to specify if its the first array of datas
 bool firstAccVal = 1;
 // 3 sigma of the standard deviation of the accelerometer
-#define START_ACC_3_SIGMA 100
+#define START_ACC_3_SIGMA 2000
 
 /// Timer variables 
 #define START_TIMER 50 //[ms]
@@ -60,33 +60,43 @@ int controlTimer = 0;
 #define CONT_TEMP_PIN A0
 #define CONT_ULTRA_TRIG_PIN 6
 #define CONT_ULTRA_ECHO_PIN 7
-// number of control sensors
-#define N_CON 3
-// output of control sensors
-int controlVal[N_CON];
 
 /// Detection sensors Pins
 #define DET_PIR_1_PIN 7
 #define DET_PIR_2_PIN 8
 #define DET_RAD_1_PIN 9
 #define DET_RAD_2_PIN 10
-#define DET_CO2_PIN A0
-// number of detection sensors (type)
-#define N_TYPE_DET 3
-// number of detection sensors (total)
-#define N_DET 5
+#define DET_CO2_PIN A1
+// sensor types
+#define N_DET 3
 
-/// output array of detection sensors
-int detVal[N_DET];
-
-// weights
-int weights[N_DET];
+/// Detection results
+int det[N_DET];   // {PIR,RAD,CO2}
 
 /// Temperature sensor
 int Vo;
-const float R1 = 100000;  //fixed resistance of the tension partition 
+const float R1 = 100000;  //fixed resistance of the tension partition TO BE TUNED 
 float logR2, R2, T;
 const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
+
+/// Ultrasound 
+// standard distance from the window
+#define WINDOW_DISTANCE 10 // [cm]
+// window weights
+#define OPENED_WINDOW 0
+#define CLOSED_WINDOW 1
+
+/// CO2 
+// check weight
+int checkWindows = 1;
+int Windows = 1;
+// treshold
+#define CO2_TRESHOLD 100
+
+/// Accelerometer
+// treshold for vibrations to determine the weight of radar
+#define DET_ACC_TRESHOLD 100
+
 
 
 
@@ -95,8 +105,8 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 /// GENERAL ///
 
 /// Sensors array and number of sensor used
-#define N_SENS 9
-int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_ULTRA_TRIG_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
+#define N_SENS 8
+int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
 int i = 0;
 int j = 0;
 int con = 0;
@@ -109,13 +119,15 @@ void setup(){
 
   // Opening Serial monitoring
   Serial.begin(115200);
-  // sensors initialization
+  // sensors initialization for input pins
   for(i=0; i<N_SENS; i++){
-    pinMode(sens[i],INPUT);
-    Serial.print("INPUT: "); Serial.println(i);
+      pinMode(sens[i],INPUT);
+      Serial.print("INPUT: "); Serial.println(i);
   }
   // set the alimentation pin to output
   pinMode(VCC,OUTPUT);
+  //set the trigger pin to output
+  pinMode(CONT_ULTRA_TRIG_PIN,OUTPUT);
   // accelerometer initialization
   Wire.begin();
   Wire.beginTransmission(MPU);
@@ -140,7 +152,7 @@ void loop(){
 
     // OFF STATE
     case OFF:
-      if( !(start_acc_change()) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
+      if( !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
         Serial.println("No accelerometer or PIR variation detected");
         if( !(StarttimerSwitch) ){
           Serial.println("TIMER STARTED");
@@ -156,6 +168,8 @@ void loop(){
           firstPIRVal = 0;
           // shutdown timer inizialization
           shutdownTimer = SHUTDOWN_TIMER;
+          //window check initialization
+          checkWindows = 1;
         }
       }else{
         Serial.println("STARTING: No variation");
@@ -174,23 +188,24 @@ void loop(){
 
     // CPD STATE (ON STATE)
     case ON:
-      //control timer countdown
-      if(controlTimer == 0){
-        
-        controlTimer = CONTROL_TIMER;
-      }
       if(shutdownTimer == 0){
         state = SLEEP;
       }
+      
+      // determines only one time the weight of the CO2
+      if(checkWindows){
+         Windows = control_ultrasound_read();
+      }
+      if(Windows==CLOSED_WINDOW){
+        det[2] = CO2_detection();
+      }
+
+      
       
 
 
       //shutdown timer countdown
       shutdownTimer = shutdownTimer-1;
-      Serial.print("Shutdown: "); Serial.println(shutdownTimer);
-      // control timer countdown
-      controlTimer = controlTimer-1;
-      Serial.print("Contorl: "); Serial.println(controlTimer);
       delay(1);
     break;
 
@@ -202,7 +217,7 @@ void loop(){
     // SLEEP STATE
     case SLEEP:
 
-    if(start_acc_change() || start_PIR_change()){
+    if(start_acc_change(START_ACC_3_SIGMA) || start_PIR_change()){
       state = OFF;
     }
 
@@ -220,9 +235,10 @@ void loop(){
 
 
 
-/// FUNCTIONS ///
+///// FUNCTIONS /////
 
-// STARTING & CHECKING //
+
+/// STARTING & CHECKING ///
 
 // returns 0 if PIR changes from movement to not movement (TESTED)
 int start_PIR_change(void){
@@ -262,7 +278,7 @@ int start_PIR_change(void){
 }
 
 // returns 1 if standard deviation of accelerometer changes TESTED
-int start_acc_change(void){
+int start_acc_change(int tresh){
 
   float sum = 0;
   // mean of the N_ACC datas
@@ -309,7 +325,7 @@ int start_acc_change(void){
   dev = sqrt(sum/(N_ACC - 1));
   Serial.print("Accelerometer standard deviation: "); Serial.println(dev);
   
-  if(dev >= START_ACC_3_SIGMA){
+  if(dev >= tresh){
     return 1;
   }else{
     return 0;
@@ -317,11 +333,9 @@ int start_acc_change(void){
 }
 
 
-// CPD //
+/// CPD ///
 
-void weights_computation(void){
-
-}
+/// CONTROL SENSORS
 
 // gives out the temperature
 float control_temp_read(void){
@@ -329,9 +343,44 @@ float control_temp_read(void){
   R2 = R1 * (1023.0 / (float)Vo - 1.0);
   logR2 = log(R2);
   T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
-  return T = T - 273.15;
+  T = T - 273.15;
+  Serial.print("CONTROL -> Temperature: "); Serial.println(T);
+  return T;
 }
 
+// gives out the weights of the window closed or opened
 int control_ultrasound_read(void){
+  float duration_us, distance_cm;
   
+  digitalWrite(CONT_ULTRA_TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(CONT_ULTRA_TRIG_PIN, LOW);
+
+  duration_us = pulseIn(CONT_ULTRA_ECHO_PIN, HIGH);
+
+  distance_cm = duration_us * 0.017;
+
+  if(distance_cm>=WINDOW_DISTANCE){
+    Serial.println("CONTROL -> Ultrasound: window open");
+    return OPENED_WINDOW;
+  }else{
+    Serial.println("CONTROL -> Ultrasound: window closed");
+    return CLOSED_WINDOW;
+  }
 }
+
+/// DETECTION
+
+// returns 1 if the readout goes lower than a given treshold
+int CO2_detection(void){
+    int read = 0;
+    read = analogRead(DET_CO2_PIN);
+    Serial.print("CO2: "); Serial.println(read);
+    if(read < CO2_TRESHOLD){
+      return 1;
+    }else{
+      return 0;
+    }
+}
+
+
