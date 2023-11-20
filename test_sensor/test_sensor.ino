@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#define PIN 4
+#define PIN 5
 #define N 50
 int val[N];
 int firstPIRVal = 1;
@@ -12,6 +12,11 @@ void setup(){
 }
 
 void loop(){
+    Serial.print("is moving: "); Serial.println(digitalRead(PIN));
+    delay(100);
+}
+
+void loop34(void){
     int sum = 0;
   
     if(firstPIRVal){
@@ -44,7 +49,7 @@ void loop(){
 
     }
 
-    Serial.print("Sum of the PIR readouts: "); Serial.println(sum);
+    Serial.print("Sum of the RAD readouts: "); Serial.println(sum);
 
     if(sum!=0){
         Serial.println("CHANGE");

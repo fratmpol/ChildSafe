@@ -7,6 +7,7 @@
 #define OFF 0
 #define ON 1
 #define ALERT 2
+#define SLEEP 3
 // state system variable
 int state = OFF;
 
@@ -51,13 +52,14 @@ int startTimer = 0;
 int shutdownTimer = 0;
 
 /// Control Timer [ms]
-#define CONTROL_TIMER 10000
+#define CONTROL_TIMER 1000 //integer fraction of the shutdown timer
 int controlTimer = 0;
 
 /// Control sensors Pins
 #define CONT_VIB_PIN 5
 #define CONT_TEMP_PIN A0
-#define CONT_ULTRA_PIN 6
+#define CONT_ULTRA_TRIG_PIN 6
+#define CONT_ULTRA_ECHO_PIN 7
 // number of control sensors
 #define N_CON 3
 // output of control sensors
@@ -93,8 +95,8 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 /// GENERAL ///
 
 /// Sensors array and number of sensor used
-#define N_SENS 8
-int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
+#define N_SENS 9
+int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_ULTRA_TRIG_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN};
 int i = 0;
 int j = 0;
 int con = 0;
@@ -178,20 +180,31 @@ void loop(){
         controlTimer = CONTROL_TIMER;
       }
       if(shutdownTimer == 0){
-        state = OFF;
+        state = SLEEP;
       }
       
 
 
       //shutdown timer countdown
-      shutdownTimer = shutdownTimer - - 1;
+      shutdownTimer = shutdownTimer-1;
+      Serial.print("Shutdown: "); Serial.println(shutdownTimer);
       // control timer countdown
-      controlTimer = controlTimer - 1;
+      controlTimer = controlTimer-1;
+      Serial.print("Contorl: "); Serial.println(controlTimer);
       delay(1);
     break;
 
     // ALERT STATE 
     case ALERT:
+
+    break;
+
+    // SLEEP STATE
+    case SLEEP:
+
+    if(start_acc_change() || start_PIR_change()){
+      state = OFF;
+    }
 
     break;
   

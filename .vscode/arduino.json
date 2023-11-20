@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbmodem11201",
+    "port": "/dev/tty.usbmodem11301",
     "programmer": "usbtinyisp",
     "sketch": "main_new/main_new.ino",
     "sketch2": "test_logic/test_logic.ino",
