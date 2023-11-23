@@ -20,14 +20,17 @@ int state = SLEEP;
 /// Alimentation
 #define VCC 0
 
-/// PIR
+/// Ultrasound
 // digital Pin 
-#define START_PIR_PIN 4
+#define START_ULTRA_TRIG_PIN 4
+#define START_ULTRA_ECHO_PIN 5
 //data array
-#define N_PIR 100    // (estimated to be a good data for the readouts)
-int start_PIR_val[N_PIR];
+#define N_ULTRA 50   // (estimated to be a good data for the readouts)
+float startUltraVal[N_ULTRA];
 // variable to specify if its the first array of datas
-bool firstPIRVal = 1;
+bool firstUltraVal = 1;
+// standard deviation treshold
+#define START_ULTRA_3_SIGMA 10
 
 /// Accelerometer
 const int MPU = 0x68; // I2C address of the MPU-6050
@@ -41,8 +44,8 @@ bool firstAccVal = 1;
 #define START_ACC_3_SIGMA 100
 
 /// Timer variables 
-#define START_TIMER 1000 //[ms]
-int StarttimerSwitch = 0;
+#define START_TIMER 100 //[ms]
+int startTimerSwitch = 0;
 int startTimer = 0;
 
 
@@ -52,7 +55,7 @@ int startTimer = 0;
 /// CPD DEFINITIONS ///
 
 /// Shutdown timer [ms]
-#define SHUTDOWN_TIMER 1000
+#define SHUTDOWN_TIMER 100
 int shutdownTimer = 0;
 
 /// Control Timer [ms]
@@ -60,16 +63,16 @@ int shutdownTimer = 0;
 int controlTimer = 0;
 
 /// Control sensors Pins
-#define CONT_VIB_PIN 5
+#define CONT_VIB_PIN 6
 #define CONT_TEMP_PIN A0
-#define CONT_ULTRA_TRIG_PIN 6
-#define CONT_ULTRA_ECHO_PIN 7
+#define CONT_ULTRA_TRIG_PIN 7
+#define CONT_ULTRA_ECHO_PIN 8
 
 /// Detection sensors Pins
-#define DET_PIR_1_PIN 7
-#define DET_PIR_2_PIN 8
-#define DET_RAD_1_PIN 9
-#define DET_RAD_2_PIN 10
+#define DET_PIR_1_PIN 10
+#define DET_PIR_2_PIN 11
+#define DET_RAD_1_PIN 12
+#define DET_RAD_2_PIN 13
 #define DET_CO2_PIN A1
 // sensor types
 #define N_DET 3
@@ -95,7 +98,7 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 /// CO2 
 // check weight
 int checkWindows = 1;
-int Windows = 1;
+int windows = 1;
 // treshold
 #define CO2_TRESHOLD 100
 
@@ -115,8 +118,8 @@ int Windows = 1;
 /// ALERT DEFINITIONS ///
 
 /// Pin definitions
-#define BUZZER_PIN 11
-#define BUTTON_PIN 12
+#define BUZZER_PIN 9
+#define BUTTON_PIN 14
 // button variables
 #define N_BUTTON 10
 int buttonVal[N_BUTTON];
@@ -132,7 +135,7 @@ int buttonVal[N_BUTTON];
 
 /// Sensors array and number of sensor used
 #define N_SENS 9
-int sens[N_SENS] = {START_PIR_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN,BUTTON_PIN};
+int sens[N_SENS] = {START_ULTRA_ECHO_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN,BUTTON_PIN};
 int i = 0;
 int j = 0;
 
@@ -144,6 +147,7 @@ void setup(){
 
   // Opening Serial monitoring
   Serial.begin(115200);
+  Serial.println("----STARTING----");
   // sensors initialization for input pins
   for(i=0; i<N_SENS; i++){
       pinMode(sens[i],INPUT);
@@ -153,6 +157,7 @@ void setup(){
   pinMode(VCC,OUTPUT);
   //set the trigger pin to output
   pinMode(CONT_ULTRA_TRIG_PIN,OUTPUT);
+  pinMode(START_ULTRA_TRIG_PIN,OUTPUT);
   //set the buzzer pin to output
   pinMode(BUZZER_PIN,OUTPUT);
   // accelerometer initialization
@@ -179,23 +184,23 @@ void loop(){
 
     // OFF STATE
     case OFF:
-      if(startTimer==0 && !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){   //if the mode is selected and if the car is not moving 
+      if(!(start_acc_change(START_ACC_3_SIGMA)) && !(start_ultra_change()) ){   //if the mode is selected and if the car is not moving 
         
-        Serial.println("No accelerometer or PIR variation detected");
+        Serial.println("No accelerometer or Ultra variation detected");
         
-        if( !(StarttimerSwitch) ){
+        if( !(startTimerSwitch) ){
           Serial.println("TIMER STARTED");
-          StarttimerSwitch = 1; // initializating the timer
+          startTimerSwitch = 1; // initializating the timer
           startTimer = START_TIMER;
-        }else if(StarttimerSwitch && startTimer == 0){
+        }else if(startTimerSwitch && startTimer == 0){
           Serial.println("TIMER ENDED");
           state = ON;
           // variables reset
-          StarttimerSwitch = 0;
+          startTimerSwitch = 0;
           startTimer = 0;
           //start detection sensor reset
           firstAccVal = 1;
-          firstPIRVal = 1;
+          firstUltraVal = 1;
           // shutdown timer inizialization
           shutdownTimer = SHUTDOWN_TIMER;
           //window check initialization
@@ -203,18 +208,18 @@ void loop(){
         }
 
       }else{
-        Serial.println("STARTING: No variation");
+        Serial.println("---- STARTING: VARIATION DETECTED ----");
         state = OFF;
         //Reset timer variables
-        StarttimerSwitch = 0;
+        startTimerSwitch = 0;
         startTimer = 0;
       }
 
       //timer countdown
-      if(StarttimerSwitch){
+      if(startTimerSwitch){
+        //Serial.print("TIMER VALUE: "); Serial.println(startTimer);
         startTimer = startTimer - 1;
         delay(1);
-        Serial.print("TIMER VALUE: "); Serial.println(startTimer);
       }
     break;
 
@@ -222,21 +227,21 @@ void loop(){
     // CPD STATE (ON STATE)
     case ON:
       // do the detection until the car is not moving or the driver has not re-entered
-      if( !(start_acc_change(START_ACC_3_SIGMA)) && !(start_PIR_change()) ){
+      if( !(start_acc_change(START_ACC_3_SIGMA)) && !(start_ultra_change()) ){
         
         /// CO2 DETECTION
         // determines only one time the weight of the CO2
         if(checkWindows){
-          Windows = control_ultrasound_read();
+          windows = control_ultrasound_read();
           checkWindows = 0;
         }
-        if(Windows==CLOSED_WINDOW){
+        if(windows==CLOSED_WINDOW){
           det[2] = CO2_detection();
         }
 
         /// RADAR DETECTION
         if( !(start_acc_change(DET_ACC_TRESHOLD)) ){
-          det[1] = rad_PIR_detection(DET_RAD_1_PIN,DET_RAD_2_PIN);
+          det[1] = rad_PIR_detection_2(DET_RAD_1_PIN,DET_RAD_2_PIN);
         }
 
         /// PIR DETECTION
@@ -284,7 +289,7 @@ void loop(){
     // SLEEP STATE
     case SLEEP:
 
-    if(start_acc_change(START_ACC_3_SIGMA) || start_PIR_change()){
+    if(start_acc_change(START_ACC_3_SIGMA) || start_ultra_change()){
       state = OFF;
     }
 
@@ -308,36 +313,56 @@ void loop(){
 /// STARTING & CHECKING ///
 
 // returns 0 if PIR changes from movement to not movement (TESTED)
-int start_PIR_change(void){
+int start_ultra_change(void){
 
-  int sum = 0;
+  float sum = 0;
+  float mean = 0;
+  float dev = 0;
   
-  if(firstPIRVal){
+  if(firstUltraVal){
 
-    for(i = 0; i<N_PIR; i++){
-      start_PIR_val[i] = digitalRead(START_PIR_PIN);
-      sum = sum + start_PIR_val[i];
+    for(i = 0; i<N_ULTRA; i++){
+
+      digitalWrite(START_ULTRA_TRIG_PIN, HIGH);
+      delayMicroseconds(10);
+      digitalWrite(START_ULTRA_TRIG_PIN, LOW);
+
+      startUltraVal[i] = pulseIn(START_ULTRA_ECHO_PIN,HIGH)*0.017;
+      sum = sum + startUltraVal[i];
     }
 
-    firstPIRVal = 0;
+    firstUltraVal = 0;
 
   }else{
 
-    for(i=1; i<N_PIR; i++){
-      start_PIR_val[i-1] = start_PIR_val[i];
-      sum = sum + start_PIR_val[i-1];
+    for(i=1; i<N_ULTRA; i++){
+      startUltraVal[i-1] = startUltraVal[i];
+      sum = sum + startUltraVal[i-1];
     }
-    start_PIR_val[N_PIR-1] = digitalRead(START_PIR_PIN);
-    sum = sum + start_PIR_val[N_PIR-1];
+
+    digitalWrite(START_ULTRA_TRIG_PIN, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(START_ULTRA_TRIG_PIN, LOW);
+
+    startUltraVal[N_ULTRA-1] = pulseIn(START_ULTRA_ECHO_PIN,HIGH)*0.017;
+    sum = sum + startUltraVal[N_ULTRA-1];
 
   }
 
-  Serial.print("Sum of the PIR readouts: "); Serial.println(sum);
+  mean = sum/N_ULTRA;
 
-  if(sum==0){   // when nothing is moving for some time it returns 0
-    return 0;
-  }else{
+  sum = 0;
+  for(i=0;i<N_ULTRA;i++){
+    sum = pow(startUltraVal[i]-mean,2);
+  }
+
+  dev = sqrt(sum)/(N_ULTRA-1);
+  Serial.print("standard deviation of the ultrasound: "); Serial.println(dev);
+
+  if(dev>START_ULTRA_3_SIGMA){   // when nothing is moving for some time it returns 0
     return 1;
+  }else{
+    return 0;
   }
 
 
@@ -453,11 +478,33 @@ int CO2_detection(void){
 // returns 1 if something is moving (RADAR or PIR)
 int rad_PIR_detection(int pin1, int pin2){
 
-  int val1 = digitalRead(pin1);
+  int val1 = digitalRead(DET_PIR_1_PIN);
+  Serial.print("val1: "); Serial.println(val1);
   delay(INTERFEHERENCE_DELAY);
-  int val2 = digitalRead(pin2);
+  int val2 = digitalRead(DET_PIR_2_PIN);
+  Serial.print("val2: "); Serial.println(val2);
 
   if( val1 || val2 ){
+    Serial.println("------PIR DETECTION------");
+    delay(2000);
+    return 1;
+  }else{
+    return 0;
+  }
+
+}
+
+int rad_PIR_detection_2(int pin1, int pin2){
+
+  int val1 = digitalRead(12);
+  Serial.print("val1: "); Serial.println(val1);
+  delay(INTERFEHERENCE_DELAY);
+  int val2 = digitalRead(DET_RAD_2_PIN);
+  Serial.print("val2: "); Serial.println(val2);
+
+  if( val1 || val2 ){
+    Serial.println("------RAD DETECTION------");
+    delay(2000);
     return 1;
   }else{
     return 0;
