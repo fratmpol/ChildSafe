@@ -44,7 +44,7 @@ bool firstAccVal = 1;
 #define START_ACC_3_SIGMA 100
 
 /// Timer variables 
-#define START_TIMER 100 //[ms]
+#define START_TIMER 1000 //[ms]
 int startTimerSwitch = 0;
 int startTimer = 0;
 
@@ -55,11 +55,11 @@ int startTimer = 0;
 /// CPD DEFINITIONS ///
 
 /// Shutdown timer [ms]
-#define SHUTDOWN_TIMER 100
+#define SHUTDOWN_TIMER 1000
 int shutdownTimer = 0;
 
 /// Control Timer [ms]
-#define CONTROL_TIMER 1000 //integer fraction of the shutdown timer
+#define CONTROL_TIMER 100 //integer fraction of the shutdown timer
 int controlTimer = 0;
 
 /// Control sensors Pins
@@ -100,7 +100,7 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 int checkWindows = 1;
 int windows = 1;
 // treshold
-#define CO2_TRESHOLD 100
+#define CO2_TRESHOLD 210
 
 /// Accelerometer
 // treshold for vibrations to determine the weight of radar
@@ -119,7 +119,7 @@ int windows = 1;
 
 /// Pin definitions
 #define BUZZER_PIN 9
-#define BUTTON_PIN 14
+#define BUTTON_PIN 2
 // button variables
 #define N_BUTTON 10
 int buttonVal[N_BUTTON];
@@ -241,12 +241,34 @@ void loop(){
 
         /// RADAR DETECTION
         if( !(start_acc_change(DET_ACC_TRESHOLD)) ){
-          det[1] = rad_PIR_detection_2(DET_RAD_1_PIN,DET_RAD_2_PIN);
+          int rad_val1 = digitalRead(DET_RAD_1_PIN);
+          Serial.print("radar val1: "); Serial.println(rad_val1);
+          delay(INTERFEHERENCE_DELAY);
+          int rad_val2 = digitalRead(DET_RAD_2_PIN);
+          Serial.print("radar val2: "); Serial.println(rad_val2);
+          if(rad_val1 || rad_val2){
+            Serial.println("------RAD DETECTION------");
+            delay(2000);
+            det[1] = 1;
+          }else{
+            det[1] = 0;
+          }
         }
 
         /// PIR DETECTION
         if(control_temp_read() <= TRESH_TEMP){
-          det[0] = rad_PIR_detection(DET_PIR_1_PIN,DET_PIR_2_PIN);
+          int PIR_val1 = digitalRead(DET_PIR_1_PIN);
+          Serial.print("PIR val1: "); Serial.println(PIR_val1);
+          delay(INTERFEHERENCE_DELAY);
+          int PIR_val2 = digitalRead(DET_PIR_2_PIN);
+          Serial.print("PIR val2: "); Serial.println(PIR_val2);
+          if(PIR_val1 || PIR_val2){
+            Serial.println("------PIR DETECTION------");
+            delay(2000);
+            det[0] = 1;
+          }else{
+            det[0] = 0;
+          }
         }
 
         /////// DETECTION OF THE CHILDREN ///////
@@ -468,48 +490,11 @@ int CO2_detection(void){
     int read = 0;
     read = analogRead(DET_CO2_PIN);
     Serial.print("CO2: "); Serial.println(read);
-    if(read < CO2_TRESHOLD){
+    if(read > CO2_TRESHOLD){
       return 1;
     }else{
       return 0;
     }
-}
-
-// returns 1 if something is moving (RADAR or PIR)
-int rad_PIR_detection(int pin1, int pin2){
-
-  int val1 = digitalRead(DET_PIR_1_PIN);
-  Serial.print("val1: "); Serial.println(val1);
-  delay(INTERFEHERENCE_DELAY);
-  int val2 = digitalRead(DET_PIR_2_PIN);
-  Serial.print("val2: "); Serial.println(val2);
-
-  if( val1 || val2 ){
-    Serial.println("------PIR DETECTION------");
-    delay(2000);
-    return 1;
-  }else{
-    return 0;
-  }
-
-}
-
-int rad_PIR_detection_2(int pin1, int pin2){
-
-  int val1 = digitalRead(12);
-  Serial.print("val1: "); Serial.println(val1);
-  delay(INTERFEHERENCE_DELAY);
-  int val2 = digitalRead(DET_RAD_2_PIN);
-  Serial.print("val2: "); Serial.println(val2);
-
-  if( val1 || val2 ){
-    Serial.println("------RAD DETECTION------");
-    delay(2000);
-    return 1;
-  }else{
-    return 0;
-  }
-
 }
 
 
