@@ -41,10 +41,10 @@ int start_acc_val[N_ACC];
 // variable to specify if its the first array of datas
 bool firstAccVal = 1;
 // 3 sigma of the standard deviation of the accelerometer
-#define START_ACC_3_SIGMA 100
+#define START_ACC_3_SIGMA 25
 
 /// Timer variables 
-#define START_TIMER 1000 //[ms]
+#define START_TIMER 100 //[ms] (~10 ms)
 int startTimerSwitch = 0;
 int startTimer = 0;
 
@@ -55,7 +55,7 @@ int startTimer = 0;
 /// CPD DEFINITIONS ///
 
 /// Shutdown timer [ms]
-#define SHUTDOWN_TIMER 1000
+#define SHUTDOWN_TIMER 10000
 int shutdownTimer = 0;
 
 /// Control Timer [ms]
@@ -104,7 +104,7 @@ int windows = 1;
 
 /// Accelerometer
 // treshold for vibrations to determine the weight of radar
-#define DET_ACC_TRESHOLD 100
+#define DET_ACC_TRESHOLD 70
 
 /// Radar and PIR
 // delay between the two radars in order to not have interfeherence
@@ -138,6 +138,12 @@ int buttonVal[N_BUTTON];
 int sens[N_SENS] = {START_ULTRA_ECHO_PIN,CONT_ULTRA_ECHO_PIN,CONT_VIB_PIN,DET_CO2_PIN,DET_PIR_1_PIN,DET_PIR_2_PIN,DET_RAD_1_PIN,DET_RAD_2_PIN,BUTTON_PIN};
 int i = 0;
 int j = 0;
+
+
+/// EXPERIMENTAL VARIABLES ///
+
+// timer after detection
+int time = 0;
 
 
 
@@ -249,7 +255,7 @@ void loop(){
           if(rad_val1 || rad_val2){
             Serial.println("------RAD DETECTION------");
             delay(2000);
-            det[1] = 1;
+            det[1] = 0;
           }else{
             det[1] = 0;
           }
@@ -265,7 +271,7 @@ void loop(){
           if(PIR_val1 || PIR_val2){
             Serial.println("------PIR DETECTION------");
             delay(2000);
-            det[0] = 1;
+            det[0] = 0;
           }else{
             det[0] = 0;
           }
@@ -297,6 +303,9 @@ void loop(){
 
     // ALERT STATE 
     case ALERT:
+      delay(100);
+      time ++ ;
+      Serial.print("time passed: "); Serial.println(time);
 
       analogWrite(BUZZER_PIN,FREQUENCY);
       if(button_pressed()){
@@ -487,7 +496,7 @@ int control_ultrasound_read(void){
 
 // returns 1 if the readout goes lower than a given treshold
 int CO2_detection(void){
-    int read = 0;
+    float read = 0;
     read = analogRead(DET_CO2_PIN);
     Serial.print("CO2: "); Serial.println(read);
     if(read > CO2_TRESHOLD){
