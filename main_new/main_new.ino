@@ -44,7 +44,7 @@ bool firstAccVal = 1;
 #define START_ACC_3_SIGMA 25
 
 /// Timer variables 
-#define START_TIMER 100 //[ms] (~10 ms)
+#define START_TIMER 30 //[ms] (~10 ms)
 int startTimerSwitch = 0;
 int startTimer = 0;
 
@@ -100,7 +100,8 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 int checkWindows = 1;
 int windows = 1;
 // treshold
-#define CO2_TRESHOLD 210
+#define CO2_TRESHOLD 10
+int CO2Start = 0;
 
 /// Accelerometer
 // treshold for vibrations to determine the weight of radar
@@ -240,6 +241,7 @@ void loop(){
         if(checkWindows){
           windows = control_ultrasound_read();
           checkWindows = 0;
+          CO2Start = analogRead(DET_CO2_PIN);
         }
         if(windows==CLOSED_WINDOW){
           det[2] = CO2_detection();
@@ -255,7 +257,7 @@ void loop(){
           if(rad_val1 || rad_val2){
             Serial.println("------RAD DETECTION------");
             delay(2000);
-            det[1] = 0;
+            det[1] = 1;
           }else{
             det[1] = 0;
           }
@@ -271,7 +273,7 @@ void loop(){
           if(PIR_val1 || PIR_val2){
             Serial.println("------PIR DETECTION------");
             delay(2000);
-            det[0] = 0;
+            det[0] = 1;
           }else{
             det[0] = 0;
           }
@@ -482,8 +484,9 @@ int control_ultrasound_read(void){
   duration_us = pulseIn(CONT_ULTRA_ECHO_PIN, HIGH);
 
   distance_cm = duration_us * 0.017;
+  Serial.print("DEBUG: ---- DISTANCE: "); Serial.print(distance_cm); Serial.println(" ---- :DEBUG");
 
-  if(distance_cm>=WINDOW_DISTANCE){
+  if(distance_cm>=WINDOW_DISTANCE || distance_cm<1){
     Serial.println("CONTROL -> Ultrasound: window open");
     return OPENED_WINDOW;
   }else{
@@ -499,7 +502,7 @@ int CO2_detection(void){
     float read = 0;
     read = analogRead(DET_CO2_PIN);
     Serial.print("CO2: "); Serial.println(read);
-    if(read > CO2_TRESHOLD){
+    if(abs(read-CO2Start) > CO2_TRESHOLD){
       return 1;
     }else{
       return 0;

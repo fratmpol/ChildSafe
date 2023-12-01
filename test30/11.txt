@@ -1,0 +1,2 @@
+PIR works best for slow and big movements (can be biased due to the low temperatures)
+Radar 
