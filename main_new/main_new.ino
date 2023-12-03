@@ -25,7 +25,7 @@ int state = SLEEP;
 #define START_ULTRA_TRIG_PIN 4
 #define START_ULTRA_ECHO_PIN 5
 //data array
-#define N_ULTRA 50   // (estimated to be a good data for the readouts)
+#define N_ULTRA 10   // (estimated to be a good data for the readouts)
 float startUltraVal[N_ULTRA];
 // variable to specify if its the first array of datas
 bool firstUltraVal = 1;
@@ -44,7 +44,7 @@ bool firstAccVal = 1;
 #define START_ACC_3_SIGMA 25
 
 /// Timer variables 
-#define START_TIMER 30 //[ms] (~10 ms)
+#define START_TIMER 3000 //[ms] (~10 ms)
 int startTimerSwitch = 0;
 int startTimer = 0;
 
@@ -65,8 +65,8 @@ int controlTimer = 0;
 /// Control sensors Pins
 #define CONT_VIB_PIN 6
 #define CONT_TEMP_PIN A0
-#define CONT_ULTRA_TRIG_PIN 7
-#define CONT_ULTRA_ECHO_PIN 8
+#define CONT_ULTRA_TRIG_PIN 6
+#define CONT_ULTRA_ECHO_PIN 7
 
 /// Detection sensors Pins
 #define DET_PIR_1_PIN 10
@@ -100,12 +100,12 @@ const float c1 = 1.009249522e-03, c2 = 2.378405444e-04, c3 = 2.019202697e-07;
 int checkWindows = 1;
 int windows = 1;
 // treshold
-#define CO2_TRESHOLD 10
+#define CO2_TRESHOLD 20
 int CO2Start = 0;
 
 /// Accelerometer
 // treshold for vibrations to determine the weight of radar
-#define DET_ACC_TRESHOLD 70
+#define DET_ACC_TRESHOLD 10
 
 /// Radar and PIR
 // delay between the two radars in order to not have interfeherence
@@ -297,6 +297,7 @@ void loop(){
       delay(1);
       if(shutdownTimer == 0){
         state = SLEEP;
+        Serial.println();
         firstAccVal = 1;
         //reset of CPD switches
         checkWindows = 1;
@@ -502,7 +503,7 @@ int CO2_detection(void){
     float read = 0;
     read = analogRead(DET_CO2_PIN);
     Serial.print("CO2: "); Serial.println(read);
-    if(abs(read-CO2Start) > CO2_TRESHOLD){
+    if(abs(read-CO2Start) >= CO2_TRESHOLD){
       return 1;
     }else{
       return 0;
