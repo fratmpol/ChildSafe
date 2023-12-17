@@ -1,0 +1,6264 @@
+----STARTING----
+INPUT: 0
+INPUT: 1
+INPUT: 2
+INPUT: 3
+INPUT: 4
+INPUT: 5
+INPUT: 6
+INPUT: 7
+INPUT: 8
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.03
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+--STATE: 3 --
+Accelerometer standard deviation: 69
+--STATE: 0 --
+Accelerometer standard deviation: 68
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 69
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 81
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 88
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 204
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 206
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 267
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 268
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 267
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 258
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 257
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 257
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 257
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 258
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 184
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 175
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 131
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1108
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1106
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1111
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1115
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1114
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1115
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1115
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1116
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1118
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 1103
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 49
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 35
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 35
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 82
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 110
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 109
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 109
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 110
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 111
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 111
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 112
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 113
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 114
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 95
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 331
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 342
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 343
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 339
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 342
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 341
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 341
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 340
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 340
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 337
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 126
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 246
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 672
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 667
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 668
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 668
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 668
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 667
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 668
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 668
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 667
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 647
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 34
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 85
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 92
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 97
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 100
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 99
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 99
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 99
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 98
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 87
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 86
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 55
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 488
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 488
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 492
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 491
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 490
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 490
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 487
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 493
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 492
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 495
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 159
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 54
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 59
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 84
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 86
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 86
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 80
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 73
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 71
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 70
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 70
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 69
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 64
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 519
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 519
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 517
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 516
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 515
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 514
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 514
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 514
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 512
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 505
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 63
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 62
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 70
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 70
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 71
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 72
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 72
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 73
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 73
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 152
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 175
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 194
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 191
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 191
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 191
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 191
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 191
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 190
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 190
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 121
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 87
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 21
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+TIMER STARTED
+--STATE: 0 --
+Accelerometer standard deviation: 23
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 29
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 30
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 30
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 30
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 30
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 37
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 36
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 402
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 398
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 396
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 398
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 397
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 397
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 396
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 396
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 392
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 393
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 28
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 84
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 90
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 95
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 95
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 99
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 98
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 98
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 97
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 97
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 97
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 58
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 38
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 32
+---- STARTING: VARIATION DETECTED ----
+--STATE: 0 --
+Accelerometer standard deviation: 18
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+TIMER STARTED
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.31
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 7
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 7
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.07
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.00
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.02
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.07
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 1
+standard deviation of the ultrasound: 0.08
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.08
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.03
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.04
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.05
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.06
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.07
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.10
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 2
+standard deviation of the ultrasound: 0.10
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.09
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.08
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.07
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 3
+standard deviation of the ultrasound: 0.07
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.08
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.06
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 5
+standard deviation of the ultrasound: 0.06
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.10
+No accelerometer or Ultra variation detected
+--STATE: 0 --
+Accelerometer standard deviation: 6
+standard deviation of the ultrasound: 0.08
+No accelerometer or Ultra variation detected
+TIMER ENDED
+--STATE: 1 --
+Accelerometer standard deviation: 4
+standard deviation of the ultrasound: 0.01
+DEBUG: ---- DISTANCE: 3.55 ---- :DEBUG
+CONTROL -> Ultrasound: window closed
+CO2: 95.00
+Accelerometer standard deviation: 5
+radar val1: 1
+radar val2: 0
+------RAD DETECTION------
+CONTROL -> Temperature: 13.41
+PIR val1: 1
+PIR val2: 0
+------PIR DETECTION------
+--STATE: 2 --
+time passed: 1
+--STATE: 2 --
+time passed: 2
+--STATE: 2 --
+time passed: 3
+--STATE: 2 --
+time passed: 4
+--STATE: 2 --
+time passed: 5
+--STATE: 2 --
+time passed: 6
+--STATE: 2 --
+time passed: 7
+--STATE: 2 --
+time passed: 8
+--STATE: 2 --
+time passed: 9
+--STATE: 2 --
+time passed: 10
+--STATE: 2 --
+time passed: 11
+--STATE: 2 --
+time passed: 12
+--STATE: 2 --
+time passed: 13
+--STATE: 2 --
+time passed: 14
+--STATE: 2 --
+time passed: 15
+--STATE: 2 --
+time passed: 16
+--STATE: 2 --
+time passed: 17
+--STATE: 2 --
+time passed: 18
+--STATE: 2 --
+time passed: 19
+--STATE: 2 --
+time passed: 20
+--STATE: 2 --
+time passed: 21
+--STATE: 2 --
+time passed: 22
+--STATE: 2 --
+time passed: 23
+--STATE: 2 --
+time passed: 24
+--STATE: 2 --
+time passed: 25
+--STATE: 2 --
+time passed: 26
+--STATE: 2 --
+time passed: 27
+--STATE: 2 --
+time passed: 28
+--STATE: 2 --
+time passed: 29
+--STATE: 2 --
+time passed: 30
+--STATE: 2 --
+time passed: 31
+--STATE: 2 --
+time passed: 32
+--STATE: 2 --
+time passed: 33
+--STATE: 2 --
+time passed: 34
+--STATE: 2 --
+time passed: 35
+--STATE: 2 --
+time passed: 36
+--STATE: 2 --
+time passed: 37
+--STATE: 2 --
+time passed: 38
+--STATE: 2 --
+time passed: 39
+--STATE: 2 --
+time passed: 40
+--STATE: 2 --
+time passed: 41
+--STATE: 2 --
+time passed: 42
+--STATE: 2 --
+time passed: 43
+--STATE: 2 --
+time passed: 44
+--STATE: 2 --
+time passed: 45
+--STATE: 2 --
+time passed: 46
+--STATE: 2 --
+time passed: 47
+--STATE: 2 --
+time passed: 48
+--STATE: 2 --
+time passed: 49
+--STATE: 2 --
+time passed: 50
+--STATE: 2 --
+time passed: 51
+--STATE: 2 --
+time passed: 52
+--STATE: 2 --
+time passed: 53
+--STATE: 2 --
+time passed: 54
+--STATE: 2 --
+time passed: 55
+--STATE: 2 --
+time passed: 56
+--STATE: 2 --
+time passed: 57
+--STATE: 2 --
+time passed: 58
+--STATE: 2 --
+time passed: 59
+--STATE: 2 --
+time passed: 60
+--STATE: 2 --
+time passed: 61
+--STATE: 2 --
+time passed: 62
+--STATE: 2 --
+time passed: 63
+--STATE: 2 --
+time passed: 64
+--STATE: 2 --
+time passed: 65
+--STATE: 2 --
+time passed: 66
+--STATE: 2 --
+time passed: 67
+--STATE: 2 --
+time passed: 68
+--STATE: 2 --
+time passed: 69
+--STATE: 2 --
+time passed: 70
+--STATE: 2 --
+time passed: 71
+--STATE: 2 --
+time passed: 72
+--STATE: 2 --
+time passed: 73
+--STATE: 2 --
+time passed: 74
+--STATE: 2 --
+time passed: 75
+--STATE: 2 --
+time passed: 76
+--STATE: 2 --
+time passed: 77
+--STATE: 2 --
+time passed: 78
+--STATE: 2 --
+time passed: 79
+--STATE: 2 --
+time passed: 80
+--STATE: 2 --
+time passed: 81
+--STATE: 2 --
+time passed: 82
+--STATE: 2 --
+time passed: 83
+--STATE: 2 --
+time passed: 84
+--STATE: 2 --
+time passed: 85
+--STATE: 2 --
+time passed: 86
+--STATE: 2 --
+time passed: 87
+--STATE: 2 --
+time passed: 88
+--STATE: 2 --
+time passed: 89
+--STATE: 2 --
+time passed: 90
+--STATE: 2 --
+time passed: 91
+--STATE: 2 --
+time passed: 92
+--STATE: 2 --
+time passed: 93
+--STATE: 2 --
+time passed: 94
+--STATE: 2 --
+time passed: 95
+--STATE: 2 --
+time passed: 96
+--STATE: 2 --
+time passed: 97
+--STATE: 2 --
+time passed: 98
+--STATE: 2 --
+time passed: 99
+--STATE: 2 --
+time passed: 100
+--STATE: 2 --
+time passed: 101
+--STATE: 2 --
+time passed: 102
+--STATE: 2 --
+time passed: 103
+--STATE: 2 --
+time passed: 104
+--STATE: 2 --
+time passed: 105
+--STATE: 2 --
+time passed: 106
+--STATE: 2 --
+time passed: 107
+--STATE: 2 --
+time passed: 108
+--STATE: 2 --
+time passed: 109
+--STATE: 2 --
+time passed: 110
+--STATE: 2 --
+time passed: 111
+--STATE: 2 --
+time passed: 112
+--STATE: 2 --
+time passed: 113
+--STATE: 2 --
+time passed: 114
+--STATE: 2 --
+time passed: 115
+--STATE: 2 --
+time passed: 116
+--STATE: 2 --
+time passed: 117
+--STATE: 2 --
+time passed: 118
+--STATE: 2 --
+time passed: 119
+--STATE: 2 --
+time passed: 120
+--STATE: 2 --
+time passed: 121
+--STATE: 2 --
+time passed: 122
+--STATE: 2 --
+time passed: 123
+--STATE: 2 --
+time passed: 124
+--STATE: 2 --
+time passed: 125
+--STATE: 2 --
+time passed: 126
+--STATE: 2 --
+time passed: 127
+--STATE: 2 --
+time passed: 128
+--STATE: 2 --
+time passed: 129
+--STATE: 2 --
+time passed: 130
+--STATE: 2 --
+time passed: 131
+--STATE: 2 --
+time passed: 132
+--STATE: 2 --
+time passed: 133
+--STATE: 2 --
+time passed: 134
+--STATE: 2 --
+time passed: 135
+--STATE: 2 --
+time passed: 136
+--STATE: 2 --
+time passed: 137
+--STATE: 2 --
+time passed: 138
+--STATE: 2 --
+time passed: 139
+--STATE: 2 --
+time passed: 140
+--STATE: 2 --
+time passed: 141
+--STATE: 2 --
+time passed: 142
+--STATE: 2 --
+time passed: 143
+--STATE: 2 --
+time passed: 144
+--STATE: 2 --
+time passed: 145
+--STATE: 2 --
+time passed: 146
+--STATE: 2 --
+time passed: 147
+--STATE: 2 --
+time passed: 148
+--STATE: 2 --
+time passed: 149
+--STATE: 2 --
+time passed: 150
+--STATE: 2 --
+time passed: 151
+--STATE: 2 --
+time passed: 152
+--STATE: 2 --
+time passed: 153
+--STATE: 2 --
+time passed: 154
+--STATE: 2 --
+time passed: 155
+--STATE: 2 --
+time passed: 156
+--STATE: 2 --
+time passed: 157
+--STATE: 2 --
+time passed: 158
+--STATE: 2 --
+time passed: 159
+--STATE: 2 --
+time passed: 160
+--STATE: 2 --
+time passed: 161
+--STATE: 2 --
+time passed: 162
+--STATE: 2 --
+time passed: 163
+--STATE: 2 --
+time passed: 164
+--STATE: 2 --
+time passed: 165
+--STATE: 2 --
+time passed: 166
+--STATE: 2 --
+time passed: 167
+--STATE: 2 --
+time passed: 168
+--STATE: 2 --
+time passed: 169
+--STATE: 2 --
+time passed: 170
+--STATE: 2 --
+time passed: 171
+--STATE: 2 --
+time passed: 172
+--STATE: 2 --
+time passed: 173
+--STATE: 2 --
+time passed: 174
+--STATE: 2 --
+time passed: 175
+--STATE: 2 --
+time passed: 176
+--STATE: 2 --
+time passed: 177
+--STATE: 2 --
+time passed: 178
+--STATE: 2 --
+time passed: 179
+--STATE: 2 --
+time passed: 180
+--STATE: 2 --
+time passed: 181
+--STATE: 2 --
+time passed: 182
+--STATE: 2 --
+time passed: 183
+--STATE: 2 --
+time passed: 184
+--STATE: 2 --
+time passed: 185
+--STATE: 2 --
+time passed: 186
+--STATE: 2 --
+time passed: 187
+--STATE: 2 --
+time passed: 188
+--STATE: 2 --
+time passed: 189
+--STATE: 2 --
+time passed: 190
+--STATE: 2 --
+time passed: 191
+--STATE: 2 --
+time passed: 192
+--STATE: 2 --
+time passed: 193
+--STATE: 2 --
+time passed: 194
+--STATE: 2 --
+time passed: 195
+--STATE: 2 --
+time passed: 196
+--STATE: 2 --
+time passed: 197
+--STATE: 2 --
+time passed: 198
+--STATE: 2 --
+time passed: 199
+--STATE: 2 --
+time passed: 200
+--STATE: 2 --
+time passed: 201
+--STATE: 2 --
+time passed: 202
+--STATE: 2 --
+time passed: 203
+--STATE: 2 --
+time passed: 204
+--STATE: 2 --
+time passed: 205
+--STATE: 2 --
+time passed: 206
+--STATE: 2 --
+time passed: 207
+--STATE: 2 --
+time passed: 208
+--STATE: 2 --
+time passed: 209
+--STATE: 2 --
+time passed: 210
+--STATE: 2 --
+time passed: 211
+--STATE: 2 --
+time passed: 212
+--STATE: 2 --
+time passed: 213
+--STATE: 2 --
+time passed: 214
+--STATE: 2 --
+time passed: 215
+--STATE: 2 --
+time passed: 216
+--STATE: 2 --
+time passed: 217
+--STATE: 2 --
+time passed: 218
+--STATE: 2 --
+time passed: 219
+--STATE: 2 --
+time passed: 220
+--STATE: 2 --
+time passed: 221
+--STATE: 2 --
+time passed: 222
+--STATE: 2 --
+time passed: 223
+--STATE: 2 --
+time passed: 224
+--STATE: 2 --
+time passed: 225
+--STATE: 2 --
+time passed: 226
+--STATE: 2 --
+time passed: 227
+--STATE: 2 --
+time passed: 228
+--STATE: 2 --
+time passed: 229
+--STATE: 2 --
+time passed: 230
+--STATE: 2 --
+time passed: 231
+--STATE: 2 --
+time passed: 232
+--STATE: 2 --
+time passed: 233
+--STATE: 2 --
+time passed: 234
+--STATE: 2 --
+time passed: 235
+--STATE: 2 --
+time passed: 236
+--STATE: 2 --
+time passed: 237
+--STATE: 2 --
+time passed: 238
+--STATE: 2 --
+time passed: 239
+--STATE: 2 --
+time passed: 240
+--STATE: 2 --
+time passed: 241
+--STATE: 2 --
+time passed: 242
+--STATE: 2 --
+time passed: 243
+--STATE: 2 --
+time passed: 244
+--STATE: 2 --
+time passed: 245
+--STATE: 2 --
+time passed: 246
+--STATE: 2 --
+time passed: 247
+--STATE: 2 --
+time passed: 248
+--STATE: 2 --
+time passed: 249
+--STATE: 2 --
+time passed: 250
+--STATE: 2 --
+time passed: 251
+--STATE: 2 --
+time passed: 252
+--STATE: 2 --
+time passed: 253
+--STATE: 2 --
+time passed: 254
+--STATE: 2 --
+time passed: 255
+--STATE: 2 --
+time passed: 256
+--STATE: 2 --
+time passed: 257
+--STATE: 2 --
+time passed: 258
+--STATE: 2 --
+time passed: 259
+--STATE: 2 --
+time passed: 260
+--STATE: 2 --
+time passed: 261
+--STATE: 2 --
+time passed: 262
+--STATE: 2 --
+time passed: 263
+--STATE: 2 --
+time passed: 264
+--STATE: 2 --
+time passed: 265
+--STATE: 2 --
+time passed: 266
+--STATE: 2 --
+time passed: 267
+--STATE: 2 --
+time passed: 268
+--STATE: 2 --
+time passed: 269
+--STATE: 2 --
+time passed: 270
+--STATE: 2 --
+time passed: 271
+--STATE: 2 --
+time passed: 272
+--STATE: 2 --
+time passed: 273
+--STATE: 2 --
+time passed: 274
+--STATE: 2 --
+time passed: 275
+--STATE: 2 --
+time passed: 276
+--STATE: 2 --
+time passed: 277
+--STATE: 2 --
+time passed: 278
+--STATE: 2 --
+time passed: 279
+--STATE: 2 --
+time passed: 280
+--STATE: 2 --
+time passed: 281
+--STATE: 2 --
+time passed: 282
+--STATE: 2 --
+time passed: 283
+--STATE: 2 --
+time passed: 284
+--STATE: 2 --
+time passed: 285
+--STATE: 2 --
+time passed: 286
+--STATE: 2 --
+time passed: 287
+--STATE: 2 --
+time passed: 288
+--STATE: 2 --
+time passed: 289
+--STATE: 2 --
+time passed: 290
+--STATE: 2 --
+time passed: 291
+--STATE: 2 --
+time passed: 292
+--STATE: 2 --
+time passed: 293
+--STATE: 2 --
+time passed: 294
+--STATE: 2 --
+time passed: 295
+--STATE: 2 --
+time passed: 296
+--STATE: 2 --
+time passed: 297
+--STATE: 2 --
+time passed: 298
+--STATE: 2 --
+time passed: 299
+--STATE: 2 --
+time passed: 300
+--STATE: 2 --
+time passed: 301
+--STATE: 2 --
+time passed: 302
+--STATE: 2 --
+time passed: 303
+--STATE: 2 --
+time passed: 304
+--STATE: 2 --
+time passed: 305
+--STATE: 2 --
+time passed: 306
+--STATE: 2 --
+time passed: 307
+--STATE: 2 --
+time passed: 308
+--STATE: 2 --
+time passed: 309
+--STATE: 2 --
+time passed: 310
+--STATE: 2 --
+time passed: 311
+--STATE: 2 --
+time passed: 312
+--STATE: 2 --
+time passed: 313
+--STATE: 2 --
+time passed: 314
+--STATE: 2 --
+time passed: 315
+--STATE: 2 --
+time passed: 316
+--STATE: 2 --
+time passed: 317
+--STATE: 2 --
+time passed: 318
+--STATE: 2 --
+time passed: 319
+--STATE: 2 --
+time passed: 320
+--STATE: 2 --
+time passed: 321
+--STATE: 2 --
+time passed: 322
+--STATE: 2 --
+time passed: 323
+--STATE: 2 --
+time passed: 324
+--STATE: 2 --
+time passed: 325
+--STATE: 2 --
+time passed: 326
+--STATE: 2 --
+time passed: 327
+--STATE: 2 --
+time passed: 328
+--STATE: 2 --
+time passed: 329
+--STATE: 2 --
+time passed: 330
+--STATE: 2 --
+time passed: 331
+--STATE: 2 --
+time passed: 332
+--STATE: 2 --
+time passed: 333
+--STATE: 2 --
+time passed: 334
+--STATE: 2 --
+time passed: 335
+--STATE: 2 --
+time passed: 336
+--STATE: 2 --
+time passed: 337
+--STATE: 2 --
+time passed: 338
+--STATE: 2 --
+time passed: 339
+--STATE: 2 --
+time passed: 340
+--STATE: 2 --
+time passed: 341
+--STATE: 2 --
+time passed: 342
+--STATE: 2 --
+time passed: 343
+--STATE: 2 --
+time passed: 344
+--STATE: 2 --
+time passed: 345
+--STATE: 2 --
+time passed: 346
+--STATE: 2 --
+time passed: 347
+--STATE: 2 --
+time passed: 348
+--STATE: 2 --
+time passed: 349
+--STATE: 2 --
+time passed: 350
+--STATE: 2 --
+time passed: 351
+--STATE: 2 --
+time passed: 352
+--STATE: 2 --
+time passed: 353
+--STATE: 2 --
+time passed: 354
+--STATE: 2 --
+time passed: 355
+--STATE: 2 --
+time passed: 356
+--STATE: 2 --
+time passed: 357
+--STATE: 2 --
+time passed: 358
+--STATE: 2 --
+time passed: 359
+--STATE: 2 --
+time passed: 360
+--STATE: 2 --
+time passed: 361
+--STATE: 2 --
+time passed: 362
+--STATE: 2 --
+time passed: 363
+--STATE: 2 --
+time passed: 364
+--STATE: 2 --
+time passed: 365
+--STATE: 2 --
+time passed: 366
+--STATE: 2 --
+time passed: 367
+--STATE: 2 --
+time passed: 368
+--STATE: 2 --
+time passed: 369
+--STATE: 2 --
+time passed: 370
+--STATE: 2 --
+time passed: 371
+--STATE: 2 --
+time passed: 372
+--STATE: 2 --
+time passed: 373
+--STATE: 2 --
+time passed: 374
+--STATE: 2 --
+time passed: 375
+--STATE: 2 --
+time passed: 376
+--STATE: 2 --
+time passed: 377
+--STATE: 2 --
+time passed: 378
+--STATE: 2 --
+time passed: 379
+--STATE: 2 --
+time passed: 380
+--STATE: 2 --
+time passed: 381
+--STATE: 2 --
+time passed: 382
+--STATE: 2 --
+time passed: 383
+--STATE: 2 --
+time passed: 384
+--STATE: 2 --
+time passed: 385
+--STATE: 2 --
+time passed: 386
+--STATE: 2 --
+time passed: 387
+--STATE: 2 --
+time passed: 388
+--STATE: 2 --
+time passed: 389
+--STATE: 2 --
+time passed: 390
+--STATE: 2 --
+time passed: 391
+--STATE: 2 --
+time passed: 392
+--STATE: 2 --
+time passed: 393
+--STATE: 2 --
+time passed: 394
+--STATE: 2 --
+time passed: 395
+--STATE: 2 --
+time passed: 396
+--STATE: 2 --
+time passed: 397
+--STATE: 2 --
+time passed: 398
+--STATE: 2 --
+time passed: 399
+--STATE: 2 --
+time passed: 400
+--STATE: 2 --
+time passed: 401
+--STATE: 2 --
+time passed: 402
+--STATE: 2 --
+time passed: 403
+--STATE: 2 --
+time passed: 404
+--STATE: 2 --
+time passed: 405
+--STATE: 2 --
+time passed: 406
+--STATE: 2 --
+time passed: 407
+--STATE: 2 --
+time passed: 408
+--STATE: 2 --
+time passed: 409
+--STATE: 2 --
+time passed: 410
+--STATE: 2 --
+time passed: 411
+--STATE: 2 --
+time passed: 412
+--STATE: 2 --
+time passed: 413
+--STATE: 2 --
+time passed: 414
+--STATE: 2 --
+time passed: 415
+--STATE: 2 --
+time passed: 416
+--STATE: 2 --
+time passed: 417
+--STATE: 2 --
+time passed: 418
+--STATE: 2 --
+time passed: 419
+--STATE: 2 --
+time passed: 420
+--STATE: 2 --
+time passed: 421
+--STATE: 2 --
+time passed: 422
+--STATE: 2 --
+time passed: 423
+--STATE: 2 --
+time passed: 424
+--STATE: 2 --
+time passed: 425
+--STATE: 2 --
+time passed: 426
+--STATE: 2 --
+time passed: 427
+--STATE: 2 --
+time passed: 428
+--STATE: 2 --
+time passed: 429
+--STATE: 2 --
+time passed: 430
+--STATE: 2 --
+time passed: 431
+--STATE: 2 --
+time passed: 432
+--STATE: 2 --
+time passed: 433
+--STATE: 2 --
+time passed: 434
+--STATE: 2 --
+time passed: 435
+--STATE: 2 --
+time passed: 436
+--STATE: 2 --
+time passed: 437
+--STATE: 2 --
+time passed: 438
+--STATE: 2 --
+time passed: 439
+--STATE: 2 --
+time passed: 440
+--STATE: 2 --
+time passed: 441
+--STATE: 2 --
+time passed: 442
+--STATE: 2 --
+time passed: 443
+--STATE: 2 --
+time passed: 444
+--STATE: 2 --
+time passed: 445
+--STATE: 2 --
+time passed: 446
+--STATE: 2 --
+time passed: 447
+--STATE: 2 --
+time passed: 448
+--STATE: 2 --
+time passed: 449
+--STATE: 2 --
+time passed: 450
+--STATE: 2 --
+time passed: 451
+--STATE: 2 --
+time passed: 452
+--STATE: 2 --
+time passed: 453
+--STATE: 2 --
+time passed: 454
+--STATE: 2 --
+time passed: 455
+--STATE: 2 --
+time passed: 456
+--STATE: 2 --
+time passed: 457
+--STATE: 2 --
+time passed: 458
+--STATE: 2 --
+time passed: 459
+--STATE: 2 --
+time passed: 460
+--STATE: 2 --
+time passed: 461
+--STATE: 2 --
+time passed: 462
+--STATE: 2 --
+time passed: 463
+--STATE: 2 --
+time passed: 464
+--STATE: 2 --
+time passed: 465
+--STATE: 2 --
+time passed: 466
+--STATE: 2 --
+time passed: 467
+--STATE: 2 --
+time passed: 468
+--STATE: 2 --
+time passed: 469
+--STATE: 2 --
+time passed: 470
+--STATE: 2 --
+time passed: 471
+--STATE: 2 --
+time passed: 472
+--STATE: 2 --
+time passed: 473
+--STATE: 2 --
+time passed: 474
+--STATE: 2 --
+time passed: 475
+--STATE: 2 --
+time passed: 476
+--STATE: 2 --
+time passed: 477
+--STATE: 2 --
+time passed: 478
+--STATE: 2 --
+time passed: 479
+--STATE: 2 --
+time passed: 480
+--STATE: 2 --
+time passed: 481
+--STATE: 2 --
+time passed: 482
+--STATE: 2 --
+time passed: 483
+--STATE: 2 --
+time passed: 484
+--STATE: 2 --
+time passed: 485
+--STATE: 2 --
+time passed: 486
+--STATE: 2 --
+time passed: 487
+--STATE: 2 --
+time passed: 488
+--STATE: 2 --
+time passed: 489
+--STATE: 2 --
+time passed: 490
+--STATE: 2 --
+time passed: 491
+--STATE: 2 --
+time passed: 492
+--STATE: 2 --
+time passed: 493
+--STATE: 2 --
+time passed: 494
+--STATE: 2 --
+time passed: 495
+--STATE: 2 --
+time passed: 496
+--STATE: 2 --
+time passed: 497
+--STATE: 2 --
+time passed: 498
+--STATE: 2 --
+time passed: 499
+--STATE: 2 --
+time passed: 500
+--STATE: 2 --
+time passed: 501
+--STATE: 2 --
+time passed: 502
+--STATE: 2 --
+time passed: 503
+--STATE: 2 --
+time passed: 504
+--STATE: 2 --
+time passed: 505
+--STATE: 2 --
+time passed: 506
+--STATE: 2 --
+time passed: 507
+--STATE: 2 --
+time passed: 508
+--STATE: 2 --
+time passed: 509
+--STATE: 2 --
+time passed: 510
+--STATE: 2 --
+time passed: 511
+--STATE: 2 --
+time passed: 512
+--STATE: 2 --
+time passed: 513
+--STATE: 2 --
+time passed: 514
+--STATE: 2 --
+time passed: 515
+--STATE: 2 --
+time passed: 516
+--STATE: 2 --
+time passed: 517
+--STATE: 2 --
+time passed: 518
+--STATE: 2 --
+time passed: 519
+--STATE: 2 --
+time passed: 520
+--STATE: 2 --
+time passed: 521
+--STATE: 2 --
+time passed: 522
+--STATE: 2 --
+time passed: 523
+--STATE: 2 --
+time passed: 524
+--STATE: 2 --
+time passed: 525
+--STATE: 2 --
+time passed: 526
+--STATE: 2 --
+time passed: 527
+--STATE: 2 --
+time passed: 528
+--STATE: 2 --
+time passed: 529
+--STATE: 2 --
+time passed: 530
+--STATE: 2 --
+time passed: 531
+--STATE: 2 --
+time passed: 532
+--STATE: 2 --
+time passed: 533
+--STATE: 2 --
+time passed: 534
+--STATE: 2 --
+time passed: 535
+--STATE: 2 --
+time passed: 536
+--STATE: 2 --
+time passed: 537
+--STATE: 2 --
+time passed: 538
+--STATE: 2 --
+time passed: 539
+--STATE: 2 --
+time passed: 540
+--STATE: 2 --
+time passed: 541
+--STATE: 2 --
+time passed: 542
+--STATE: 2 --
+time passed: 543
+--STATE: 2 --
+time passed: 544
+--STATE: 2 --
+time passed: 545
+--STATE: 2 --
+time passed: 546
+--STATE: 2 --
+time passed: 547
+--STATE: 2 --
+time passed: 548
+--STATE: 2 --
+time passed: 549
+--STATE: 2 --
+time passed: 550
+--STATE: 2 --
+time passed: 551
+--STATE: 2 --
+time passed: 552
+--STATE: 2 --
+time passed: 553
+--STATE: 2 --
+time passed: 554
+--STATE: 2 --
+time passed: 555
+--STATE: 2 --
+time passed: 556
+--STATE: 2 --
+time passed: 557
+--STATE: 2 --
+time passed: 558
+--STATE: 2 --
+time passed: 559
+--STATE: 2 --
+time passed: 560
+--STATE: 2 --
+time passed: 561
+--STATE: 2 --
+time passed: 562
+--STATE: 2 --
+time passed: 563
+--STATE: 2 --
+time passed: 564
+--STATE: 2 --
+time passed: 565
+--STATE: 2 --
+time passed: 566
+--STATE: 2 --
+time passed: 567
+--STATE: 2 --
+time passed: 568
+--STATE: 2 --
+time passed: 569
+--STATE: 2 --
+time passed: 570
+--STATE: 2 --
+time passed: 571
+--STATE: 2 --
+time passed: 572
+--STATE: 2 --
+time passed: 573
+--STATE: 2 --
+time passed: 574
+--STATE: 2 --
+time passed: 575
+--STATE: 2 --
+time passed: 576
+--STATE: 2 --
+time passed: 577
+--STATE: 2 --
+time passed: 578
+--STATE: 2 --
+time passed: 579
+--STATE: 2 --
+time passed: 580
+--STATE: 2 --
+time passed: 581
+--STATE: 2 --
+time passed: 582
+--STATE: 2 --
+time passed: 583
+--STATE: 2 --
+time passed: 584
+--STATE: 2 --
+time passed: 585
+--STATE: 2 --
+time passed: 586
+--STATE: 2 --
+time passed: 587
+--STATE: 2 --
+time passed: 588
+--STATE: 2 --
+time passed: 589
+--STATE: 2 --
+time passed: 590
+--STATE: 2 --
+time passed: 591
+--STATE: 2 --
+time passed: 592
+--STATE: 2 --
+time passed: 593
+--STATE: 2 --
+time passed: 594
+--STATE: 2 --
+time passed: 595
+--STATE: 2 --
+time passed: 596
+--STATE: 2 --
+time passed: 597
+--STATE: 2 --
+time passed: 598
+--STATE: 2 --
+time passed: 599
+--STATE: 2 --
+time passed: 600
+--STATE: 2 --
+time passed: 601
+--STATE: 2 --
+time passed: 602
+--STATE: 2 --
+time passed: 603
+--STATE: 2 --
+time passed: 604
+--STATE: 2 --
+time passed: 605
+--STATE: 2 --
+time passed: 606
+--STATE: 2 --
+time passed: 607
+--STATE: 2 --
+time passed: 608
+--STATE: 2 --
+time passed: 609
+--STATE: 2 --
+time passed: 610
+--STATE: 2 --
+time passed: 611
+--STATE: 2 --
+time passed: 612
+--STATE: 2 --
+time passed: 613
+--STATE: 2 --
+time passed: 614
+--STATE: 2 --
+time passed: 615
+--STATE: 2 --
+time passed: 616
+--STATE: 2 --
+time passed: 617
+--STATE: 2 --
+time passed: 618
+--STATE: 2 --
+time passed: 619
+--STATE: 2 --
+time passed: 620
+--STATE: 2 --
+time passed: 621
+--STATE: 2 --
+time passed: 622
+--STATE: 2 --
+time passed: 623
+--STATE: 2 --
+time passed: 624
+--STATE: 2 --
+time passed: 625
+--STATE: 2 --
+time passed: 626
+--STATE: 2 --
+time passed: 627
+--STATE: 2 --
+time passed: 628
+--STATE: 2 --
+time passed: 629
+--STATE: 2 --
+time passed: 630
+--STATE: 2 --
+time passed: 631
+--STATE: 2 --
+time passed: 632
+--STATE: 2 --
+time passed: 633
+--STATE: 2 --
+time passed: 634
+--STATE: 2 --
+time passed: 635
+--STATE: 2 --
+time passed: 636
+--STATE: 2 --
+time passed: 637
+--STATE: 2 --
+time passed: 638
+--STATE: 2 --
+time passed: 639
+--STATE: 2 --
+time passed: 640
+--STATE: 2 --
+time passed: 641
+--STATE: 2 --
+time passed: 642
+--STATE: 2 --
+time passed: 643
+--STATE: 2 --
+time passed: 644
+--STATE: 2 --
+time passed: 645
+--STATE: 2 --
+time passed: 646
+--STATE: 2 --
+time passed: 647
+--STATE: 2 --
+time passed: 648
+--STATE: 2 --
+time passed: 649
+--STATE: 2 --
+time passed: 650
+--STATE: 2 --
+time passed: 651
+--STATE: 2 --
+time passed: 652
+--STATE: 2 --
+time passed: 653
+--STATE: 2 --
+time passed: 654
+--STATE: 2 --
+time passed: 655
+--STATE: 2 --
+time passed: 656
+--STATE: 2 --
+time passed: 657
+--STATE: 2 --
+time passed: 658
+--STATE: 2 --
+time passed: 659
+--STATE: 2 --
+time passed: 660
+--STATE: 2 --
+time passed: 661
+--STATE: 2 --
+time passed: 662
+--STATE: 2 --
+time passed: 663
+--STATE: 2 --
+time passed: 664
+--STATE: 2 --
+time passed: 665
+--STATE: 2 --
+time passed: 666
+--STATE: 2 --
+time passed: 667
+--STATE: 2 --
+time passed: 668
+--STATE: 2 --
+time passed: 669
+--STATE: 2 --
+time passed: 670
+--STATE: 2 --
+time passed: 671
+--STATE: 2 --
+time passed: 672
+--STATE: 2 --
+time passed: 673
+--STATE: 2 --
+time passed: 674
+--STATE: 2 --
+time passed: 675
+--STATE: 2 --
+time passed: 676
+--STATE: 2 --
+time passed: 677
+--STATE: 2 --
+time passed: 678
+--STATE: 2 --
+time passed: 679
+--STATE: 2 --
+time passed: 680
+--STATE: 2 --
+time passed: 681
+--STATE: 2 --
+time passed: 682
+--STATE: 2 --
+time passed: 683
+--STATE: 2 --
+time passed: 684
+--STATE: 2 --
+time passed: 685
+--STATE: 2 --
+time passed: 686
+--STATE: 2 --
+time passed: 687
+--STATE: 2 --
+time passed: 688
+--STATE: 2 --
+time passed: 689
+--STATE: 2 --
+time passed: 690
+--STATE: 2 --
+time passed: 691
+--STATE: 2 --
+time passed: 692
+--STATE: 2 --
+time passed: 693
+--STATE: 2 --
+time passed: 694
+--STATE: 2 --
+time passed: 695
+--STATE: 2 --
+time passed: 696
+--STATE: 2 --
+time passed: 697
+--STATE: 2 --
+time passed: 698
+--STATE: 2 --
+time passed: 699
+--STATE: 2 --
+time passed: 700
+--STATE: 2 --
+time passed: 701
+--STATE: 2 --
+time passed: 702
+--STATE: 2 --
+time passed: 703
+--STATE: 2 --
+time passed: 704
+--STATE: 2 --
+time passed: 705
+--STATE: 2 --
+time passed: 706
+--STATE: 2 --
+time passed: 707
+--STATE: 2 --
+time passed: 708
+--STATE: 2 --
+time passed: 709
+--STATE: 2 --
+time passed: 710
+--STATE: 2 --
+time passed: 711
+--STATE: 2 --
+time passed: 712
+--STATE: 2 --
+time passed: 713
+--STATE: 2 --
+time passed: 714
+--STATE: 2 --
+time passed: 715
+--STATE: 2 --
+time passed: 716
+--STATE: 2 --
+time passed: 717
+--STATE: 2 --
+time passed: 718
+--STATE: 2 --
+time passed: 719
+--STATE: 2 --
+time passed: 720
+--STATE: 2 --
+time passed: 721
+--STATE: 2 --
+time passed: 722
+--STATE: 2 --
+time passed: 723
+--STATE: 2 --
+time passed: 724
+--STATE: 2 --
+time passed: 725
+--STATE: 2 --
+time passed: 726
+--STATE: 2 --
+time passed: 727
+--STATE: 2 --
+time passed: 728
+--STATE: 2 --
+time passed: 729
+--STATE: 2 --
+time passed: 730
+--STATE: 2 --
+time passed: 731
+--STATE: 2 --
+time passed: 732
+--STATE: 2 --
+time passed: 733
+--STATE: 2 --
+time passed: 734
+--STATE: 2 --
+time passed: 735
+--STATE: 2 --
+time passed: 736
+--STATE: 2 --
+time passed: 737
+--STATE: 2 --
+time passed: 738
+--STATE: 2 --
+time passed: 739
+--STATE: 2 --
+time passed: 740
+--STATE: 2 --
+time passed: 741
+--STATE: 2 --
+time passed: 742
+--STATE: 2 --
+time passed: 743
+--STATE: 2 --
+time passed: 744
+--STATE: 2 --
+time passed: 745
+--STATE: 2 --
+time passed: 746
+--STATE: 2 --
+time passed: 747
+--STATE: 2 --
+time passed: 748
+--STATE: 2 --
+time passed: 749
+--STATE: 2 --
+time passed: 750
+--STATE: 2 --
+time passed: 751
+--STATE: 2 --
+time passed: 752
+--STATE: 2 --
+time passed: 753
+--STATE: 2 --
+time passed: 754
+--STATE: 2 --
+time passed: 755
+--STATE: 2 --
+time passed: 756
+--STATE: 2 --
+time passed: 757
+--STATE: 2 --
+time passed: 758
+--STATE: 2 --
+time passed: 759
+--STATE: 2 --
+time passed: 760
+--STATE: 2 --
+time passed: 761
+--STATE: 2 --
+time passed: 762
+--STATE: 2 --
+time passed: 763
+--STATE: 2 --
+time passed: 764
+--STATE: 2 --
+time passed: 765
+--STATE: 2 --
+time passed: 766
+--STATE: 2 --
+time passed: 767
+--STATE: 2 --
+time passed: 768
+--STATE: 2 --
+time passed: 769
+--STATE: 2 --
+time passed: 770
+--STATE: 2 --
+time passed: 771
+--STATE: 2 --
+time passed: 772
+--STATE: 2 --
+time passed: 773
+--STATE: 2 --
+time passed: 774
+--STATE: 2 --
+time passed: 775
+--STATE: 2 --
+time passed: 776
+--STATE: 2 --
+time passed: 777
+--STATE: 2 --
+time passed: 778
+--STATE: 2 --
+time passed: 779
+--STATE: 2 --
+time passed: 780
+--STATE: 2 --
+time passed: 781
+--STATE: 2 --
+time passed: 782
+--STATE: 2 --
+time passed: 783
+--STATE: 2 --
+time passed: 784
+--STATE: 2 --
+time passed: 785
+--STATE: 2 --
+time passed: 786
+--STATE: 2 --
+time passed: 787
+--STATE: 2 --
+time passed: 788
+--STATE: 2 --
+time passed: 789
+--STATE: 2 --
+time passed: 790
+--STATE: 2 --
+time passed: 791
+--STATE: 2 --
+time passed: 792
+--STATE: 2 --
+time passed: 793
+--STATE: 2 --
+time passed: 794
+--STATE: 2 --
+time passed: 795
+--STATE: 2 --
+time passed: 796
+--STATE: 2 --
+time passed: 797
+--STATE: 2 --
+time passed: 798
+--STATE: 2 --
+time passed: 799
+--STATE: 2 --
+time passed: 800
+--STATE: 2 --
+time passed: 801
+--STATE: 2 --
+time passed: 802
+--STATE: 2 --
+time passed: 803
+--STATE: 2 --
+time passed: 804
+--STATE: 2 --
+time passed: 805
+--STATE: 2 --
+time passed: 806
+--STATE: 2 --
+time passed: 807
+--STATE: 2 --
+time passed: 808
+--STATE: 2 --
+time passed: 809
+--STATE: 2 --
+time passed: 810
+--STATE: 2 --
+time passed: 811
+--STATE: 2 --
+time passed: 812
+--STATE: 2 --
+time passed: 813
+--STATE: 2 --
+time passed: 814
+--STATE: 2 --
+time passed: 815
+--STATE: 2 --
+time passed: 816
+--STATE: 2 --
+time passed: 817
+--STATE: 2 --
+time passed: 818
+--STATE: 2 --
+time passed: 819
+--STATE: 2 --
+time passed: 820
+--STATE: 2 --
+time passed: 821
+--STATE: 2 --
+time passed: 822
+--STATE: 2 --
+time passed: 823
+--STATE: 2 --
+time passed: 824
+--STATE: 2 --
+time passed: 825
+--STATE: 2 --
+time passed: 826
+--STATE: 2 --
+time passed: 827
+--STATE: 2 --
+time passed: 828
+--STATE: 2 --
+time passed: 829
+--STATE: 2 --
+time passed: 830
+--STATE: 2 --
+time passed: 831
+--STATE: 2 --
+time passed: 832
+--STATE: 2 --
+time passed: 833
+--STATE: 2 --
+time passed: 834
+--STATE: 2 --
+time passed: 835
+--STATE: 2 --
+time passed: 836
+--STATE: 2 --
+time passed: 837
+--STATE: 2 --
+time passed: 838
+--STATE: 2 --
+time passed: 839
+--STATE: 2 --
+time passed: 840
+--STATE: 2 --
+time passed: 841
+--STATE: 2 --
+time passed: 842
+--STATE: 2 --
+time passed: 843
+--STATE: 2 --
+time passed: 844
+--STATE: 2 --
+time passed: 845
+--STATE: 2 --
+time passed: 846
+--STATE: 2 --
+time passed: 847
+--STATE: 2 --
+time passed: 848
+--STATE: 2 --
+time passed: 849
+--STATE: 2 --
+time passed: 850
+--STATE: 2 --
+time passed: 851
+--STATE: 2 --
+time passed: 852
+--STATE: 2 --
+time passed: 853
+--STATE: 2 --
+time passed: 854
+--STATE: 2 --
+time passed: 855
+--STATE: 2 --
+time passed: 856
+--STATE: 2 --
+time passed: 857
+--STATE: 2 --
+time passed: 858
+--STATE: 2 --
+time passed: 859
+--STATE: 2 --
+time passed: 860
+--STATE: 2 --
+time passed: 861
+--STATE: 2 --
+time passed: 862
+--STATE: 2 --
+time passed: 863
+--STATE: 2 --
+time passed: 864
+--STATE: 2 --
+time passed: 865
+--STATE: 2 --
+time passed: 866
+--STATE: 2 --
+time passed: 867
+--STATE: 2 --
+time passed: 868
+--STATE: 2 --
+time passed: 869
+--STATE: 2 --
+time passed: 870
+--STATE: 2 --
+time passed: 871
+--STATE: 2 --
+time passed: 872
+--STATE: 2 --
+time passed: 873
+--STATE: 2 --
+time passed: 874
+--STATE: 2 --
+time passed: 875
+--STATE: 2 --
+time passed: 876
+--STATE: 2 --
+time passed: 877
+--STATE: 2 --
+time passed: 878
+--STATE: 2 --
+time passed: 879
+--STATE: 2 --
+time passed: 880
+--STATE: 2 --
+time passed: 881
+--STATE: 2 --
+time passed: 882
+--STATE: 2 --
+time passed: 883
+--STATE: 2 --
+time passed: 884
+--STATE: 2 --
+time passed: 885
+--STATE: 2 --
+time passed: 886
+--STATE: 2 --
+time passed: 887
+--STATE: 2 --
+time passed: 888
+--STATE: 2 --
+time passed: 889
+--STATE: 2 --
+time passed: 890
+--STATE: 2 --
+time passed: 891
+--STATE: 2 --
+time passed: 892
+--STATE: 2 --
+time passed: 893
+--STATE: 2 --
+time passed: 894
+--STATE: 2 --
+time passed: 895
+--STATE: 2 --
+time passed: 896
+--STATE: 2 --
+time passed: 897
+--STATE: 2 --
+time passed: 898
+--STATE: 2 --
+time passed: 899
+--STATE: 2 --
+time passed: 900
+--STATE: 2 --
+time passed: 901
+--STATE: 2 --
+time passed: 902
+--STATE: 2 --
+time passed: 903
+--STATE: 2 --
+time passed: 904
+--STATE: 2 --
+time passed: 905
+--STATE: 2 --
+time passed: 906
+--STATE: 2 --
+time passed: 907
+--STATE: 2 --
+time passed: 908
+--STATE: 2 --
+time passed: 909
+--STATE: 2 --
+time passed: 910
+--STATE: 2 --
+time passed: 911
+--STATE: 2 --
+time passed: 912
+--STATE: 2 --
+time passed: 913
+--STATE: 2 --
+time passed: 914
+--STATE: 2 --
+time passed: 915
+--STATE: 2 --
+time passed: 916
+--STATE: 2 --
+time passed: 917
+--STATE: 2 --
+time passed: 918
+--STATE: 2 --
+time passed: 919
+--STATE: 2 --
+time passed: 920
+--STATE: 2 --
+time passed: 921
+--STATE: 2 --
+time passed: 922
+--STATE: 2 --
+time passed: 923
+--STATE: 2 --
+time passed: 924
+--STATE: 2 --
+time passed: 925
+--STATE: 2 --
+time passed: 926
+--STATE: 2 --
+time passed: 927
+--STATE: 2 --
+time passed: 928
+--STATE: 2 --
+time passed: 929
+--STATE: 2 --
+time passed: 930
+--STATE: 2 --
+time passed: 931
+--STATE: 2 --
+time passed: 932
+--STATE: 2 --
+time passed: 933
+--STATE: 2 --
+time passed: 934
+--STATE: 2 --
+time passed: 935
+--STATE: 2 --
+time passed: 936
+--STATE: 2 --
+time passed: 937
+--STATE: 2 --
+time passed: 938
+--STATE: 2 --
+time passed: 939
+--STATE: 2 --
+time passed: 940
+--STATE: 2 --
+time passed: 941
+--STATE: 2 --
+time passed: 942
+--STATE: 2 --
+time passed: 943
+--STATE: 2 --
+time passed: 944
+--STATE: 2 --
+time passed: 945
+--STATE: 2 --
+time passed: 946
+--STATE: 2 --
+time passed: 947
+--STATE: 2 --
+time passed: 948
+--STATE: 2 --
+time passed: 949
+--STATE: 2 --
+time passed: 950
+--STATE: 2 --
+time passed: 951
+--STATE: 2 --
+time passed: 952
+--STATE: 2 --
+time passed: 953
+--STATE: 2 --
+time passed: 954
+--STATE: 2 --
+time passed: 955
+--STATE: 2 --
+time passed: 956
+--STATE: 2 --
+time passed: 957
+--STATE: 2 --
+time passed: 958
+--STATE: 2 --
+time passed: 959
+--STATE: 2 --
+time passed: 960
+--STATE: 2 --
+time passed: 961
+--STATE: 2 --
+time passed: 962
+--STATE: 2 --
+time passed: 963
+--STATE: 2 --
+time passed: 964
+--STATE: 2 --
+time passed: 965
+--STATE: 2 --
+time passed: 966
+--STATE: 2 --
+time passed: 967
+--STATE: 2 --
+time passed: 968
+--STATE: 2 --
+time passed: 969
+--STATE: 2 --
+time passed: 970
+--STATE: 2 --
+time passed: 971
+--STATE: 2 --
+time passed: 972
+--STATE: 2 --
+time passed: 973
+--STATE: 2 --
+time passed: 974
+--STATE: 2 --
+time passed: 975
+--STATE: 2 --
+time passed: 976
+--STATE: 2 --
+time passed: 977
+--STATE: 2 --
+time passed: 978
+--STATE: 2 --
+time passed: 979
+--STATE: 2 --
+time passed: 980
+--STATE: 2 --
+time passed: 981
+--STATE: 2 --
+time passed: 982
+--STATE: 2 --
+time passed: 983
+--STATE: 2 --
+time passed: 984
+--STATE: 2 --
+time passed: 985
+--STATE: 2 --
+time passed: 986
+--STATE: 2 --
+time passed: 987
+--STATE: 2 --
+time passed: 988
+--STATE: 2 --
+time passed: 989
+--STATE: 2 --
+time passed: 990
+--STATE: 2 --
+time passed: 991
+--STATE: 2 --
+time passed: 992
+--STATE: 2 --
+time passed: 993
+--STATE: 2 --
+time passed: 994
+--STATE: 2 --
+time passed: 995
+--STATE: 2 --
+time passed: 996
+--STATE: 2 --
+time passed: 997
+--STATE: 2 --
+time passed: 998
+--STATE: 2 --
+time passed: 999
+--STATE: 2 --
+time passed: 1000
+--STATE: 2 --
+time passed: 1001
+--STATE: 2 --
+time passed: 1002
+--STATE: 2 --
+time passed: 1003
+--STATE: 2 --
+time passed: 1004
+--STATE: 2 --
+time passed: 1005
+--STATE: 2 --
+time passed: 1006
+--STATE: 2 --
+time passed: 1007
+--STATE: 2 --
+time passed: 1008
+--STATE: 2 --
+time passed: 1009
+--STATE: 2 --
+time passed: 1010
+--STATE: 2 --
+time passed: 1011
+--STATE: 2 --
+time passed: 1012
+--STATE: 2 --
+time passed: 1013
+--STATE: 2 --
+time passed: 1014
+--STATE: 2 --
+time passed: 1015
+--STATE: 2 --
+time passed: 1016
+--STATE: 2 --
+time passed: 1017
+--STATE: 2 --
+time passed: 1018
+--STATE: 2 --
+time passed: 1019
+--STATE: 2 --
+time passed: 1020
+--STATE: 2 --
+time passed: 1021
+--STATE: 2 --
+time passed: 1022
+--STATE: 2 --
+time passed: 1023
+--STATE: 2 --
+time passed: 1024
+--STATE: 2 --
+time passed: 1025
+--STATE: 2 --
+time passed: 1026
+--STATE: 2 --
+time passed: 1027
+--STATE: 2 --
+time passed: 1028
+--STATE: 2 --
+time passed: 1029
+--STATE: 2 --
+time passed: 1030
+--STATE: 2 --
+time passed: 1031
+--STATE: 2 --
+time passed: 1032
+--STATE: 2 --
+time passed: 1033
+--STATE: 2 --
+time passed: 1034
+--STATE: 2 --
+time passed: 1035
+--STATE: 2 --
+time passed: 1036
+--STATE: 2 --
+time passed: 1037
+--STATE: 2 --
+time passed: 1038
+--STATE: 2 --
+time passed: 1039
+--STATE: 2 --
+time passed: 1040
+--STATE: 2 --
+time passed: 1041
+--STATE: 2 --
+time passed: 1042
+--STATE: 2 --
+time passed: 1043
+--STATE: 2 --
+time passed: 1044
+--STATE: 2 --
+time passed: 1045
+--STATE: 2 --
+time passed: 1046
+--STATE: 2 --
+time passed: 1047
+--STATE: 2 --
+time passed: 1048
+--STATE: 2 --
+time passed: 1049
+--STATE: 2 --
+time passed: 1050
+--STATE: 2 --
+time passed: 1051
+--STATE: 2 --
+time passed: 1052
+--STATE: 2 --
+time passed: 1053
+--STATE: 2 --
+time passed: 1054
+--STATE: 2 --
+time passed: 1055
+--STATE: 2 --
+time passed: 1056
+--STATE: 2 --
+time passed: 1057
+--STATE: 2 --
+time passed: 1058
+--STATE: 2 --
+time passed: 1059
+--STATE: 2 --
+time passed: 1060
+--STATE: 2 --
+time passed: 1061
+--STATE: 2 --
+time passed: 1062
+--STATE: 2 --
+time passed: 1063
+--STATE: 2 --
+time passed: 1064
+--STATE: 2 --
+time passed: 1065
+--STATE: 2 --
+time passed: 1066
+--STATE: 2 --
+time passed: 1067
+--STATE: 2 --
+time passed: 1068
+--STATE: 2 --
+time passed: 1069
+--STATE: 2 --
+time passed: 1070
+--STATE: 2 --
+time passed: 1071
+--STATE: 2 --
+time passed: 1072
+--STATE: 2 --
+time passed: 1073
+--STATE: 2 --
+time passed: 1074
+--STATE: 2 --
+time passed: 1075
+--STATE: 2 --
+time passed: 1076
+--STATE: 2 --
+time passed: 1077
+--STATE: 2 --
+time passed: 1078
+--STATE: 2 --
+time passed: 1079
+--STATE: 2 --
+time passed: 1080
+--STATE: 2 --
+time passed: 1081
+--STATE: 2 --
+time passed: 1082
+--STATE: 2 --
+time passed: 1083
+--STATE: 2 --
+time passed: 1084
+--STATE: 2 --
+time passed: 1085
+--STATE: 2 --
+time passed: 1086
+--STATE: 2 --
+time passed: 1087
+--STATE: 2 --
+time passed: 1088
+--STATE: 2 --
+time passed: 1089
+--STATE: 2 --
+time passed: 1090
+--STATE: 2 --
+time passed: 1091
+--STATE: 2 --
+time passed: 1092
+--STATE: 2 --
+time passed: 1093
+--STATE: 2 --
+time passed: 1094
+--STATE: 2 --
+time passed: 1095
+--STATE: 2 --
+time passed: 1096
+--STATE: 2 --
+time passed: 1097
+--STATE: 2 --
+time passed: 1098
+--STATE: 2 --
+time passed: 1099
+--STATE: 2 --
+time passed: 1100
+--STATE: 2 --
+time passed: 1101
+--STATE: 2 --
+time passed: 1102
+--STATE: 2 --
+time passed: 1103
+--STATE: 2 --
+time passed: 1104
+--STATE: 2 --
+time passed: 1105
+--STATE: 2 --
+time passed: 1106
+--STATE: 2 --
+time passed: 1107
+--STATE: 2 --
+time passed: 1108
+--STATE: 2 --
+time passed: 1109
+--STATE: 2 --
+time passed: 1110
+--STATE: 2 --
+time passed: 1111
+--STATE: 2 --
+time passed: 1112
+--STATE: 2 --
+time passed: 1113
+--STATE: 2 --
+time passed: 1114
+--STATE: 2 --
+time passed: 1115
+--STATE: 2 --
+time passed: 1116
+--STATE: 2 --
+time passed: 1117
+--STATE: 2 --
+time passed: 1118
+--STATE: 2 --
+time passed: 1119
+--STATE: 2 --
+time passed: 1120
+--STATE: 2 --
+time passed: 1121
+--STATE: 2 --
+time passed: 1122
+--STATE: 2 --
+time passed: 1123
+--STATE: 2 --
+time passed: 1124
+--STATE: 2 --
+time passed: 1125
+--STATE: 2 --
+time passed: 1126
+--STATE: 2 --
+time passed: 1127
+--STATE: 2 --
+time passed: 1128
+--STATE: 2 --
+time passed: 1129
+--STATE: 2 --
+time passed: 1130
+--STATE: 2 --
+time passed: 1131
+--STATE: 2 --
+time passed: 1132
+--STATE: 2 --
+time passed: 1133
+--STATE: 2 --
+time passed: 1134
+--STATE: 2 --
+time passed: 1135
+--STATE: 2 --
+time passed: 1136
+--STATE: 2 --
+time passed: 1137
+--STATE: 2 --
+time passed: 1138
+--STATE: 2 --
+time passed: 1139
+--STATE: 2 --
+time passed: 1140
+--STATE: 2 --
+time passed: 1141
+--STATE: 2 --
+time passed: 1142
+--STATE: 2 --
+time passed: 1143
+--STATE: 2 --
+time passed: 1144
+--STATE: 2 --
+time passed: 1145
+--STATE: 2 --
+time passed: 1146
+--STATE: 2 --
+time passed: 1147
+--STATE: 2 --
+time passed: 1148
+--STATE: 2 --
+time passed: 1149
+--STATE: 2 --
+time passed: 1150
+--STATE: 2 --
+time passed: 1151
+--STATE: 2 --
+time passed: 1152
+--STATE: 2 --
+time passed: 1153
+--STATE: 2 --
+time passed: 1154
+--STATE: 2 --
+time passed: 1155
+--STATE: 2 --
+time passed: 1156
+--STATE: 2 --
+time passed: 1157
+--STATE: 2 --
+time passed: 1158
+--STATE: 2 --
+time passed: 1159
+--STATE: 2 --
+time passed: 1160
+--STATE: 2 --
+time passed: 1161
+--STATE: 2 --
+time passed: 1162
+--STATE: 2 --
+time passed: 1163
+--STATE: 2 --
+time passed: 1164
+--STATE: 2 --
+time passed: 1165
+--STATE: 2 --
+time passed: 1166
+--STATE: 2 --
+time passed: 1167
+--STATE: 2 --
+time passed: 1168
+--STATE: 2 --
+time passed: 1169
+--STATE: 2 --
+time passed: 1170
+--STATE: 2 --
+time passed: 1171
+--STATE: 2 --
+time passed: 1172
+--STATE: 2 --
+time passed: 1173
+--STATE: 2 --
+time passed: 1174
+--STATE: 2 --
+time passed: 1175
+--STATE: 2 --
+time passed: 1176
+--STATE: 2 --
+time passed: 1177
+--STATE: 2 --
+time passed: 1178
+--STATE: 2 --
+time passed: 1179
+--STATE: 2 --
+time passed: 1180
+--STATE: 2 --
+time passed: 1181
+--STATE: 2 --
+time passed: 1182
+--STATE: 2 --
+time passed: 1183
+--STATE: 2 --
+time passed: 1184
+--STATE: 2 --
+time passed: 1185
+--STATE: 2 --
+time passed: 1186
+--STATE: 2 --
+time passed: 1187
+--STATE: 2 --
+time passed: 1188
+--STATE: 2 --
+time passed: 1189
+--STATE: 2 --
+time passed: 1190
+--STATE: 2 --
+time passed: 1191
+--STATE: 2 --
+time passed: 1192
+--STATE: 2 --
+time passed: 1193
+--STATE: 2 --
+time passed: 1194
+--STATE: 2 --
+time passed: 1195
+--STATE: 2 --
+time passed: 1196
+--STATE: 2 --
+time passed: 1197
+--STATE: 2 --
+time passed: 1198
+--STATE: 2 --
+time passed: 1199
+--STATE: 2 --
+time passed: 1200
+--STATE: 2 --
+time passed: 1201
+--STATE: 2 --
+time passed: 1202
+--STATE: 2 --
+time passed: 1203
+--STATE: 2 --
+time passed: 1204
+--STATE: 2 --
+time passed: 1205
+--STATE: 2 --
+time passed: 1206
+--STATE: 2 --
+time passed: 1207
+--STATE: 2 --
+time passed: 1208
+--STATE: 2 --
+time passed: 1209
+--STATE: 2 --
+time passed: 1210
+--STATE: 2 --
+time passed: 1211
+--STATE: 2 --
+time passed: 1212
+--STATE: 2 --
+time passed: 1213
+--STATE: 2 --
+time passed: 1214
+--STATE: 2 --
+time passed: 1215
+--STATE: 2 --
+time passed: 1216
+--STATE: 2 --
+time passed: 1217
+--STATE: 2 --
+time passed: 1218
+--STATE: 2 --
+time passed: 1219
+--STATE: 2 --
+time passed: 1220
+--STATE: 2 --
+time passed: 1221
+--STATE: 2 --
+time passed: 1222
+--STATE: 2 --
+time passed: 1223
+--STATE: 2 --
+time passed: 1224
+--STATE: 2 --
+time passed: 1225
+--STATE: 2 --
+time passed: 1226
+--STATE: 2 --
+time passed: 1227
+--STATE: 2 --
+time passed: 1228
+--STATE: 2 --
+time passed: 1229
+--STATE: 2 --
+time passed: 1230
+--STATE: 2 --
+time passed: 1231
+--STATE: 2 --
+time passed: 1232
+--STATE: 2 --
+time passed: 1233
+--STATE: 2 --
+time passed: 1234
+--STATE: 2 --
+time passed: 1235
+--STATE: 2 --
+time passed: 1236
+--STATE: 2 --
+time passed: 1237
+--STATE: 2 --
+time passed: 1238
+--STATE: 2 --
+time passed: 1239
+--STATE: 2 --
+time passed: 1240
+--STATE: 2 --
+time passed: 1241
+--STATE: 2 --
+time passed: 1242
+--STATE: 2 --
+time passed: 1243
+--STATE: 2 --
+time passed: 1244
+--STATE: 2 --
+time passed: 1245
+--STATE: 2 --
+time passed: 1246
+--STATE: 2 --
+time passed: 1247
+--STATE: 2 --
+time passed: 1248
+--STATE: 2 --
+time passed: 1249
+--STATE: 2 --
+time passed: 1250
+--STATE: 2 --
+time passed: 1251
+--STATE: 2 --
+time passed: 1252
+--STATE: 2 --
+time passed: 1253
+--STATE: 2 --
+time passed: 1254
+--STATE: 2 --
+time passed: 1255
+--STATE: 2 --
+time passed: 1256
+--STATE: 2 --
+time passed: 1257
+--STATE: 2 --
+time passed: 1258
+--STATE: 2 --
+time passed: 1259
+--STATE: 2 --
+time passed: 1260
+--STATE: 2 --
+time passed: 1261
+--STATE: 2 --
+time passed: 1262
+--STATE: 2 --
+time passed: 1263
+--STATE: 2 --
+time passed: 1264
+--STATE: 2 --
+time passed: 1265
+--STATE: 2 --
+time passed: 1266
+--STATE: 2 --
+time passed: 1267
+--STATE: 2 --
+time passed: 1268
+--STATE: 2 --
+time passed: 1269
+--STATE: 2 --
+time passed: 1270
+--STATE: 2 --
+time passed: 1271
+--STATE: 2 --
+time passed: 1272
+--STATE: 2 --
+time passed: 1273
+--STATE: 2 --
+time passed: 1274
+--STATE: 2 --
+time passed: 1275
+--STATE: 2 --
+time passed: 1276
+--STATE: 2 --
+time passed: 1277
+--STATE: 2 --
+time passed: 1278
+--STATE: 2 --
+time passed: 1279
+--STATE: 2 --
+time passed: 1280
+--STATE: 2 --
+time passed: 1281
+--STATE: 2 --
+time passed: 1282
+--STATE: 2 --
+time passed: 1283
+--STATE: 2 --
+time passed: 1284
+--STATE: 2 --
+time passed: 1285
+--STATE: 2 --
+time passed: 1286
+--STATE: 2 --
+time passed: 1287
+--STATE: 2 --
+time passed: 1288
+--STATE: 2 --
+time passed: 1289
+--STATE: 2 --
+time passed: 1290
+--STATE: 2 --
+time passed: 1291
+--STATE: 2 --
+time passed: 1292
+--STATE: 2 --
+time passed: 1293
+--STATE: 2 --
+time passed: 1294
+--STATE: 2 --
+time passed: 1295
+--STATE: 2 --
+time passed: 1296
+--STATE: 2 --
+time passed: 1297
+--STATE: 2 --
+time passed: 1298
+--STATE: 2 --
+time passed: 1299
+--STATE: 2 --
+time passed: 1300
+--STATE: 2 --
+time passed: 1301
+--STATE: 2 --
+time passed: 1302
+--STATE: 2 --
+time passed: 1303
+--STATE: 2 --
+time passed: 1304
+--STATE: 2 --
+time passed: 1305
+--STATE: 2 --
+time passed: 1306
+--STATE: 2 --
+time passed: 1307
+--STATE: 2 --
+time passed: 1308
+--STATE: 2 --
+time passed: 1309
+--STATE: 2 --
+time passed: 1310
+--STATE: 2 --
+time passed: 1311
+--STATE: 2 --
+time passed: 1312
+--STATE: 2 --
+time passed: 1313
+--STATE: 2 --
+time passed: 1314
+--STATE: 2 --
+time passed: 1315
+--STATE: 2 --
+time passed: 1316
+--STATE: 2 --
+time passed: 1317
+--STATE: 2 --
+time passed: 1318
+--STATE: 2 --
+time passed: 1319
+--STATE: 2 --
+time passed: 1320
+--STATE: 2 --
+time passed: 1321
+--STATE: 2 --
+time passed: 1322
+--STATE: 2 --
+time passed: 1323
+--STATE: 2 --
+time passed: 1324
+--STATE: 2 --
+time passed: 1325
+--STATE: 2 --
+time passed: 1326
+--STATE: 2 --
+time passed: 1327
+--STATE: 2 --
+time passed: 1328
+--STATE: 2 --
+time passed: 1329
+--STATE: 2 --
+time passed: 1330
+--STATE: 2 --
+time passed: 1331
+--STATE: 2 --
+time passed: 1332
+--STATE: 2 --
+time passed: 1333
+--STATE: 2 --
+time passed: 1334
+--STATE: 2 --
+time passed: 1335
+--STATE: 2 --
+time passed: 1336
+--STATE: 2 --
+time passed: 1337
+--STATE: 2 --
+time passed: 1338
+--STATE: 2 --
+time passed: 1339
+--STATE: 2 --
+time passed: 1340
+--STATE: 2 --
+time passed: 1341
+--STATE: 2 --
+time passed: 1342
+--STATE: 2 --
+time passed: 1343
+--STATE: 2 --
+time passed: 1344
+--STATE: 2 --
+time passed: 1345
+--STATE: 2 --
+time passed: 1346
+--STATE: 2 --
+time passed: 1347
+--STATE: 2 --
+time passed: 1348
+--STATE: 2 --
+time passed: 1349
+--STATE: 2 --
+time passed: 1350
+--STATE: 2 --
+time passed: 1351
+--STATE: 2 --
+time passed: 1352
+--STATE: 2 --
+time passed: 1353
+--STATE: 2 --
+time passed: 1354
+--STATE: 2 --
+time passed: 1355
+--STATE: 2 --
+time passed: 1356
+--STATE: 2 --
+time passed: 1357
+--STATE: 2 --
+time passed: 1358
+--STATE: 2 --
+time passed: 1359
+--STATE: 2 --
+time passed: 1360
+--STATE: 2 --
+time passed: 1361
+--STATE: 2 --
+time passed: 1362
+--STATE: 2 --
+time passed: 1363
+--STATE: 2 --
+time passed: 1364
+--STATE: 2 --
+time passed: 1365
+--STATE: 2 --
+time passed: 1366
+--STATE: 2 --
+time passed: 1367
+--STATE: 2 --
+time passed: 1368
+--STATE: 2 --
+time passed: 1369
+--STATE: 2 --
+time passed: 1370
+--STATE: 2 --
+time passed: 1371
+--STATE: 2 --
+time passed: 1372
+--STATE: 2 --
+time passed: 1373
+--STATE: 2 --
+time passed: 1374
+--STATE: 2 --
+time passed: 1375
+--STATE: 2 --
+time passed: 1376
+--STATE: 2 --
+time passed: 1377
+--STATE: 2 --
+time passed: 1378
+--STATE: 2 --
+time passed: 1379
+--STATE: 2 --
+time passed: 1380
+--STATE: 2 --
+time passed: 1381
+--STATE: 2 --
+time passed: 1382
+--STATE: 2 --
+time passed: 1383
+--STATE: 2 --
+time passed: 1384
+--STATE: 2 --
+time passed: 1385
+--STATE: 2 --
+time passed: 1386
+--STATE: 2 --
+time passed: 1387
+--STATE: 2 --
+time passed: 1388
+--STATE: 2 --
+time passed: 1389
+--STATE: 2 --
+time passed: 1390
+--STATE: 2 --
+time passed: 1391
+--STATE: 2 --
+time passed: 1392
+--STATE: 2 --
+time passed: 1393
+--STATE: 2 --
+time passed: 1394
+--STATE: 2 --
+time passed: 1395
+--STATE: 2 --
+time passed: 1396
+--STATE: 2 --
+time passed: 1397
+--STATE: 2 --
+time passed: 1398
+--STATE: 2 --
+time passed: 1399
+--STATE: 2 --
+time passed: 1400
+--STATE: 2 --
+time passed: 1401
+--STATE: 2 --
+time passed: 1402
+--STATE: 2 --
+time passed: 1403
+--STATE: 2 --
+time passed: 1404
+--STATE: 2 --
+time passed: 1405
+--STATE: 2 --
+time passed: 1406
+--STATE: 2 --
+time passed: 1407
+--STATE: 2 --
+time passed: 1408
+--STATE: 2 --
+time passed: 1409
+--STATE: 2 --
+time passed: 1410
+--STATE: 2 --
+time passed: 1411
+--STATE: 2 --
+time passed: 1412
+--STATE: 2 --
+time passed: 1413
+--STATE: 2 --
+time passed: 1414
+--STATE: 2 --
+time passed: 1415
+--STATE: 2 --
+time passed: 1416
+--STATE: 2 --
+time passed: 1417
+--STATE: 2 --
+time passed: 1418
+--STATE: 2 --
+time passed: 1419
+--STATE: 2 --
+time passed: 1420
+--STATE: 2 --
+time passed: 1421
+--STATE: 2 --
+time passed: 1422
+--STATE: 2 --
+time passed: 1423
+--STATE: 2 --
+time passed: 1424
+--STATE: 2 --
+time passed: 1425
+--STATE: 2 --
+time passed: 1426
+--STATE: 2 --
+time passed: 1427
+--STATE: 2 --
+time passed: 1428
+--STATE: 2 --
+time passed: 1429
+--STATE: 2 --
+time passed: 1430
+--STATE: 2 --
+time passed: 1431
+--STATE: 2 --
+time passed: 1432
+--STATE: 2 --
+time passed: 1433
+--STATE: 2 --
+time passed: 1434
+--STATE: 2 --
+time passed: 1435
+--STATE: 2 --
+time passed: 1436
+--STATE: 2 --
+time passed: 1437
+--STATE: 2 --
+time passed: 1438
+--STATE: 2 --
+time passed: 1439
+--STATE: 2 --
+time passed: 1440
+--STATE: 2 --
+time passed: 1441
+--STATE: 2 --
+time passed: 1442
+--STATE: 2 --
+time passed: 1443
+--STATE: 2 --
+time passed: 1444
+--STATE: 2 --
+time passed: 1445
+--STATE: 2 --
+time passed: 1446
+--STATE: 2 --
+time passed: 1447
+--STATE: 2 --
+time passed: 1448
+--STATE: 2 --
+time passed: 1449
+--STATE: 2 --
+time passed: 1450
+--STATE: 2 --
+time passed: 1451
+--STATE: 2 --
+time passed: 1452
+--STATE: 2 --
+time passed: 1453
+--STATE: 2 --
+time passed: 1454
+--STATE: 2 --
+time passed: 1455
+--STATE: 2 --
+time passed: 1456
+--STATE: 2 --
+time passed: 1457
+--STATE: 2 --
+time passed: 1458
+--STATE: 2 --
+time passed: 1459
+--STATE: 2 --
+time passed: 1460
+--STATE: 2 --
+time passed: 1461
+--STATE: 2 --
+time passed: 1462
+--STATE: 2 --
+time passed: 1463
+--STATE: 2 --
+time passed: 1464
+--STATE: 2 --
+time passed: 1465
+--STATE: 2 --
+time passed: 1466
+--STATE: 2 --
+time passed: 1467
+--STATE: 2 --
+time passed: 1468
+--STATE: 2 --
+time passed: 1469
+--STATE: 2 --
+time passed: 1470
+--STATE: 2 --
+time passed: 1471
+--STATE: 2 --
+time passed: 1472
+--STATE: 2 --
+time passed: 1473
+--STATE: 2 --
+time passed: 1474
+--STATE: 2 --
+time passed: 1475
+--STATE: 2 --
+time passed: 1476
+--STATE: 2 --
+time passed: 1477
+--STATE: 2 --
+time passed: 1478
+--STATE: 2 --
+time passed: 1479
+--STATE: 2 --
+time passed: 1480
+--STATE: 2 --
+time passed: 1481
+--STATE: 2 --
+time passed: 1482
+--STATE: 2 --
+time passed: 1483
+--STATE: 2 --
+time passed: 1484
+--STATE: 2 --
+time passed: 1485
+--STATE: 2 --
+time passed: 1486
+--STATE: 2 --
+time passed: 1487
+--STATE: 2 --
+time passed: 1488
+--STATE: 2 --
+time passed: 1489
+--STATE: 2 --
+time passed: 1490
+--STATE: 2 --
+time passed: 1491
+--STATE: 2 --
+time passed: 1492
+--STATE: 2 --
+time passed: 1493
+--STATE: 2 --
+time passed: 1494
+--STATE: 2 --
+time passed: 1495
+--STATE: 2 --
+time passed: 1496
+--STATE: 2 --
+time passed: 1497
+--STATE: 2 --
+time passed: 1498
+--STATE: 2 --
+time passed: 1499
+--STATE: 2 --
+time passed: 1500
+--STATE: 2 --
+time passed: 1501
+--STATE: 2 --
+time passed: 1502
+--STATE: 2 --
+time passed: 1503
+--STATE: 2 --
+time passed: 1504
+--STATE: 2 --
+time passed: 1505
+--STATE: 2 --
+time passed: 1506
+--STATE: 2 --
+time passed: 1507
+--STATE: 2 --
+time passed: 1508
+--STATE: 2 --
+time passed: 1509
+--STATE: 2 --
+time passed: 1510
+--STATE: 2 --
+time passed: 1511
+--STATE: 2 --
+time passed: 1512
+--STATE: 2 --
+time passed: 1513
+--STATE: 2 --
+time passed: 1514
+--STATE: 2 --
+time passed: 1515
+--STATE: 2 --
+time passed: 1516
+--STATE: 2 --
+time passed: 1517
+--STATE: 2 --
+time passed: 1518
+--STATE: 2 --
+time passed: 1519
+--STATE: 2 --
+time passed: 1520
+--STATE: 2 --
+time passed: 1521
+--STATE: 2 --
+time passed: 1522
+--STATE: 2 --
+time passed: 1523
+--STATE: 2 --
+time passed: 1524
+--STATE: 2 --
+time passed: 1525
+--STATE: 2 --
+time passed: 1526
+--STATE: 2 --
+time passed: 1527
+--STATE: 2 --
+time passed: 1528
+--STATE: 2 --
+time passed: 1529
+--STATE: 2 --
+time passed: 1530
+--STATE: 2 --
+time passed: 1531
+--STATE: 2 --
+time passed: 1532
+--STATE: 2 --
+time passed: 1533
+--STATE: 2 --
+time passed: 1534
+--STATE: 2 --
+time passed: 1535
+--STATE: 2 --
+time passed: 1536
+--STATE: 2 --
+time passed: 1537
+--STATE: 2 --
+time passed: 1538
+--STATE: 2 --
+time passed: 1539
+--STATE: 2 --
+time passed: 1540
+--STATE: 2 --
+time passed: 1541
+--STATE: 2 --
+time passed: 1542
+--STATE: 2 --
+time passed: 1543
+--STATE: 2 --
+time passed: 1544
+--STATE: 2 --
+time passed: 1545
+--STATE: 2 --
+time passed: 1546
+--STATE: 2 --
+time passed: 1547
+--STATE: 2 --
+time passed: 1548
+--STATE: 2 --
+time passed: 1549
+--STATE: 2 --
+time passed: 1550
+--STATE: 2 --
+time passed: 1551
+--STATE: 2 --
+time passed: 1552
+--STATE: 2 --
+time passed: 1553
+--STATE: 2 --
+time passed: 1554
+--STATE: 2 --
+time passed: 1555
+--STATE: 2 --
+time passed: 1556
+--STATE: 2 --
+time passed: 1557
+--STATE: 2 --
+time passed: 1558
+--STATE: 2 --
+time passed: 1559
+--STATE: 2 --
+time passed: 1560
+--STATE: 2 --
+time passed: 1561
+--STATE: 2 --
+time passed: 1562
+--STATE: 2 --
+time passed: 1563
+--STATE: 2 --
+time passed: 1564
+--STATE: 2 --
+time passed: 1565
+--STATE: 2 --
+time passed: 1566
+--STATE: 2 --
+time passed: 1567
+--STATE: 2 --
+time passed: 1568
+--STATE: 2 --
+time passed: 1569
+--STATE: 2 --
+time passed: 1570
+--STATE: 2 --
+time passed: 1571
+--STATE: 2 --
+time passed: 1572
+--STATE: 2 --
+time passed: 1573
+--STATE: 2 --
+time passed: 1574
+--STATE: 2 --
+time passed: 1575
+--STATE: 2 --
+time passed: 1576
+--STATE: 2 --
+time passed: 1577
+--STATE: 2 --
+time passed: 1578
+--STATE: 2 --
+time passed: 1579
+--STATE: 2 --
+time passed: 1580
+--STATE: 2 --
+time passed: 1581
+--STATE: 2 --
+time passed: 1582
+--STATE: 2 --
+time passed: 1583
+--STATE: 2 --
+time passed: 1584
+--STATE: 2 --
+time passed: 1585
+--STATE: 2 --
+time passed: 1586
+--STATE: 2 --
+time passed: 1587
+--STATE: 2 --
+time passed: 1588
+--STATE: 2 --
+time passed: 1589
+--STATE: 2 --
+time passed: 1590
+--STATE: 2 --
+time passed: 1591
+--STATE: 2 --
+time passed: 1592
+--STATE: 2 --
+time passed: 1593
+--STATE: 2 --
+time passed: 1594
+--STATE: 2 --
+time passed: 1595
+--STATE: 2 --
+time passed: 1596
+--STATE: 2 --
+time passed: 1597
+--STATE: 2 --
+time passed: 1598
+--STATE: 2 --
+time passed: 1599
+--STATE: 2 --
+time passed: 1600
+--STATE: 2 --
+time passed: 1601
+--STATE: 2 --
+time passed: 1602
+--STATE: 2 --
+time passed: 1603
+--STATE: 2 --
+time passed: 1604
+--STATE: 2 --
+time passed: 1605
+--STATE: 2 --
+time passed: 1606
+--STATE: 2 --
+time passed: 1607
+--STATE: 2 --
+time passed: 1608
+--STATE: 2 --
+time passed: 1609
+--STATE: 2 --
+time passed: 1610
+--STATE: 2 --
+time passed: 1611
+--STATE: 2 --
+time passed: 1612
+--STATE: 2 --
+time passed: 1613
+--STATE: 2 --
+time passed: 1614
+--STATE: 2 --
+time passed: 1615
+--STATE: 2 --
+time passed: 1616
+--STATE: 2 --
+time passed: 1617
+--STATE: 2 --
+time passed: 1618
+--STATE: 2 --
+time passed: 1619
+--STATE: 2 --
+time passed: 1620
+--STATE: 2 --
+time passed: 1621
+--STATE: 2 --
+time passed: 1622
+--STATE: 2 --
+time passed: 1623
+--STATE: 2 --
+time passed: 1624
+--STATE: 2 --
+time passed: 1625
+--STATE: 2 --
+time passed: 1626
+--STATE: 2 --
+time passed: 1627
+--STATE: 2 --
+time passed: 1628
+--STATE: 2 --
+time passed: 1629
+--STATE: 2 --
+time passed: 1630
+--STATE: 2 --
+time passed: 1631
+--STATE: 2 --
+time passed: 1632
+--STATE: 2 --
+time passed: 1633
+--STATE: 2 --
+time passed: 1634
+--STATE: 2 --
+time passed: 1635
+--STATE: 2 --
+time passed: 1636
+--STATE: 2 --
+time passed: 1637
+--STATE: 2 --
+time passed: 1638
+--STATE: 2 --
+time passed: 1639
+--STATE: 2 --
+time passed: 1640
+--STATE: 2 --
+time passed: 1641
+--STATE: 2 --
+time passed: 1642
+--STATE: 2 --
+time passed: 1643
+--STATE: 2 --
+time passed: 1644
+--STATE: 2 --
+time passed: 1645
+--STATE: 2 --
+time passed: 1646
+--STATE: 2 --
+time passed: 1647
+--STATE: 2 --
+time passed: 1648
+--STATE: 2 --
+time passed: 1649
+--STATE: 2 --
+time passed: 1650
+--STATE: 2 --
+time passed: 1651
+--STATE: 2 --
+time passed: 1652
+--STATE: 2 --
+time passed: 1653
+--STATE: 2 --
+time passed: 1654
+--STATE: 2 --
+time passed: 1655
+--STATE: 2 --
+time passed: 1656
+--STATE: 2 --
+time passed: 1657
+--STATE: 2 --
+time passed: 1658
+--STATE: 2 --
+time passed: 1659
+--STATE: 2 --
+time passed: 1660
+--STATE: 2 --
+time passed: 1661
+--STATE: 2 --
+time passed: 1662
+--STATE: 2 --
+time passed: 1663
+--STATE: 2 --
+time passed: 1664
+--STATE: 2 --
+time passed: 1665
+--STATE: 2 --
+time passed: 1666
+--STATE: 2 --
+time passed: 1667
+--STATE: 2 --
+time passed: 1668
+--STATE: 2 --
+time passed: 1669
+--STATE: 2 --
+time passed: 1670
+--STATE: 2 --
+time passed: 1671
+--STATE: 2 --
+time passed: 1672
+--STATE: 2 --
+time passed: 1673
+--STATE: 2 --
+time passed: 1674
+--STATE: 2 --
+time passed: 1675
+--STATE: 2 --
+time passed: 1676
+--STATE: 2 --
+time passed: 1677
+--STATE: 2 --
+time passed: 1678
+--STATE: 2 --
+time passed: 1679
+--STATE: 2 --
+time passed: 1680
+--STATE: 2 --
+time passed: 1681
+--STATE: 2 --
+time passed: 1682
+--STATE: 2 --
+time passed: 1683
+--STATE: 2 --
+time passed: 1684
+--STATE: 2 --
+time passed: 1685
+--STATE: 2 --
+time passed: 1686
+--STATE: 2 --
+time passed: 1687
+--STATE: 2 --
+time passed: 1688
+--STATE: 2 --
+time passed: 1689
+--STATE: 2 --
+time passed: 1690
+--STATE: 2 --
+time passed: 1691
+--STATE: 2 --
+time passed: 1692
+--STATE: 2 --
+time passed: 1693
+--STATE: 2 --
+time passed: 1694
+--STATE: 2 --
+time passed: 1695
+--STATE: 2 --
+time passed: 1696
+--STATE: 2 --
+time passed: 1697
+--STATE: 2 --
+time passed: 1698
+--STATE: 2 --
+time passed: 1699
+--STATE: 2 --
+time passed: 1700
+--STATE: 2 --
+time passed: 1701
+--STATE: 2 --
+time passed: 1702
+--STATE: 2 --
+time passed: 1703
+--STATE: 2 --
+time passed: 1704
+--STATE: 2 --
+time passed: 1705
+--STATE: 2 --
+time passed: 1706
+--STATE: 2 --
+time passed: 1707
+--STATE: 2 --
+time passed: 1708
+--STATE: 2 --
+time passed: 1709
+--STATE: 2 --
+time passed: 1710
+--STATE: 2 --
+time passed: 1711
+--STATE: 2 --
+time passed: 1712
+--STATE: 2 --
+time passed: 1713
+--STATE: 2 --
+time passed: 1714
+--STATE: 2 --
+time passed: 1715
+--STATE: 2 --
+time passed: 1716
+--STATE: 2 --
+time passed: 1717
+--STATE: 2 --
+time passed: 1718
+--STATE: 2 --
+time passed: 1719
+--STATE: 2 --
+time passed: 1720
+--STATE: 2 --
+time passed: 1721
+--STATE: 2 --
+time passed: 1722
+--STATE: 2 --
+time passed: 1723
+--STATE: 2 --
+time passed: 1724
+--STATE: 2 --
+time passed: 1725
+--STATE: 2 --
+time passed: 1726
+--STATE: 2 --
+time passed: 1727
+--STATE: 2 --
+time passed: 1728
+--STATE: 2 --
+time passed: 1729
+--STATE: 2 --
+time passed: 1730
+--STATE: 2 --
+time passed: 1731
+--STATE: 2 --
+time passed: 1732
+--STATE: 2 --
+time passed: 1733
+--STATE: 2 --
+time passed: 1734
+--STATE: 2 --
+time passed: 1735
+--STATE: 2 --
+time passed: 1736
+--STATE: 2 --
+time passed: 1737
+--STATE: 2 --
+time passed: 1738
+--STATE: 2 --
+time passed: 1739
+--STATE: 2 --
+time passed: 1740
+--STATE: 2 --
+time passed: 1741
+--STATE: 2 --
+time passed: 1742
+--STATE: 2 --
+time passed: 1743
+--STATE: 2 --
+time passed: 1744
+--STATE: 2 --
+time passed: 1745
+--STATE: 2 --
+time passed: 1746
+--STATE: 2 --
+time passed: 1747
+--STATE: 2 --
+time passed: 1748
+--STATE: 2 --
+time passed: 1749
+--STATE: 2 --
+time passed: 1750
+--STATE: 2 --
+time passed: 1751
+--STATE: 2 --
+time passed: 1752
+--STATE: 2 --
+time passed: 1753
+--STATE: 2 --
+time passed: 1754
+--STATE: 2 --
+time passed: 1755
+--STATE: 2 --
+time passed: 1756
+--STATE: 2 --
+time passed: 1757
+--STATE: 2 --
+time passed: 1758
+--STATE: 2 --
+time passed: 1759
+--STATE: 2 --
+time passed: 1760
+--STATE: 2 --
+time passed: 1761
+--STATE: 2 --
+time passed: 1762
+--STATE: 2 --
+time passed: 1763
+--STATE: 2 --
+time passed: 1764
+--STATE: 2 --
+time passed: 1765
+--STATE: 2 --
+time passed: 1766
+--STATE: 2 --
+time passed: 1767
+--STATE: 2 --
+time passed: 1768
+--STATE: 2 --
+time passed: 1769
+--STATE: 2 --
+time passed: 1770
+--STATE: 2 --
+time passed: 1771
+--STATE: 2 --
+time passed: 1772
+--STATE: 2 --
+time passed: 1773
+--STATE: 2 --
+time passed: 1774
+--STATE: 2 --
+time passed: 1775
+--STATE: 2 --
+time passed: 1776
+--STATE: 2 --
+time passed: 1777
+--STATE: 2 --
+time passed: 1778
+--STATE: 2 --
+time passed: 1779
+--STATE: 2 --
+time passed: 1780
+--STATE: 2 --
+time passed: 1781
+--STATE: 2 --
+time passed: 1782
+--STATE: 2 --
+time passed: 1783
+--STATE: 2 --
+time passed: 1784
+--STATE: 2 --
+time passed: 1785
+--STATE: 2 --
+time passed: 1786
+--STATE: 2 --
+time passed: 1787
+--STATE: 2 --
+time passed: 1788
+--STATE: 2 --
+time passed: 1789
+--STATE: 2 --
+time passed: 1790
+--STATE: 2 --
+time passed: 1791
+--STATE: 2 --
+time passed: 1792
+--STATE: 2 --
+time passed: 1793
+--STATE: 2 --
+time passed: 1794
+--STATE: 2 --
+time passed: 1795
+--STATE: 2 --
+time passed: 1796
+--STATE: 2 --
+time passed: 1797
+--STATE: 2 --
+time passed: 1798
+--STATE: 2 --
+time passed: 1799
+--STATE: 2 --
+time passed: 1800
+--STATE: 2 --
+time passed: 1801
+--STATE: 2 --
+time passed: 1802
+--STATE: 2 --
+time passed: 1803
+--STATE: 2 --
+time passed: 1804
+--STATE: 2 --
+time passed: 1805
+--STATE: 2 --
+time passed: 1806
+--STATE: 2 --
+time passed: 1807
+--STATE: 2 --
+time passed: 1808
+--STATE: 2 --
+time passed: 1809
+--STATE: 2 --
+time passed: 1810
+--STATE: 2 --
+time passed: 1811
+--STATE: 2 --
+time passed: 1812
+--STATE: 2 --
+time passed: 1813
+--STATE: 2 --
+time passed: 1814
+--STATE: 2 --
+time passed: 1815
+--STATE: 2 --
+time passed: 1816
+--STATE: 2 --
+time passed: 1817
+--STATE: 2 --
+time passed: 1818
+--STATE: 2 --
+time passed: 1819
+--STATE: 2 --
+time passed: 1820
+--STATE: 2 --
+time passed: 1821
+--STATE: 2 --
+time passed: 1822
+--STATE: 2 --
+time passed: 1823
+--STATE: 2 --
+time passed: 1824
+--STATE: 2 --
+time passed: 1825
+--STATE: 2 --
+time passed: 1826
+--STATE: 2 --
+time passed: 1827
+--STATE: 2 --
+time passed: 1828
+--STATE: 2 --
+time passed: 1829
+--STATE: 2 --
+time passed: 1830
+--STATE: 2 --
+time passed: 1831
+--STATE: 2 --
+time passed: 1832
+--STATE: 2 --
+time passed: 1833
+--STATE: 2 --
+time passed: 1834
+--STATE: 2 --
+time passed: 1835
+--STATE: 2 --
+time passed: 1836
+--STATE: 2 --
+time passed: 1837
+--STATE: 2 --
+time passed: 1838
+--STATE: 2 --
+time passed: 1839
+--STATE: 2 --
+time passed: 1840
+--STATE: 2 --
+time passed: 1841
+--STATE: 2 --
+time passed: 1842
+--STATE: 2 --
+time passed: 1843
+--STATE: 2 --
+time passed: 1844
+--STATE: 2 --
+time passed: 1845
+--STATE: 2 --
+time passed: 1846
+--STATE: 2 --
+time passed: 1847
+--STATE: 2 --
+time passed: 1848
+--STATE: 2 --
+time passed: 1849
+--STATE: 2 --
+time passed: 1850
+--STATE: 2 --
+time passed: 1851
+--STATE: 2 --
+time passed: 1852
+--STATE: 2 --
+time passed: 1853
+--STATE: 2 --
+time passed: 1854
+--STATE: 2 --
+time passed: 1855
+--STATE: 2 --
+time passed: 1856
+--STATE: 2 --
+time passed: 1857
+--STATE: 2 --
+time passed: 1858
+--STATE: 2 --
+time passed: 1859
+--STATE: 2 --
+time passed: 1860
+--STATE: 2 --
+time passed: 1861
+--STATE: 2 --
+time passed: 1862
+--STATE: 2 --
+time passed: 1863
+--STATE: 2 --
+time passed: 1864
+--STATE: 2 --
+time passed: 1865
+--STATE: 2 --
+time passed: 1866
+--STATE: 2 --
+time passed: 1867
+--STATE: 2 --
+time passed: 1868
+--STATE: 2 --
+time passed: 1869
+--STATE: 2 --
+time passed: 1870
+--STATE: 2 --
+time passed: 1871
+--STATE: 2 --
+time passed: 1872
+--STATE: 2 --
+time passed: 1873
+--STATE: 2 --
+time passed: 1874
+--STATE: 2 --
+time passed: 1875
+--STATE: 2 --
+time passed: 1876
+--STATE: 2 --
+time passed: 1877
+--STATE: 2 --
+time passed: 1878
+--STATE: 2 --
+time passed: 1879
+--STATE: 2 --
+time passed: 1880
+--STATE: 2 --
+time passed: 1881
+--STATE: 2 --
+time passed: 1882
+--STATE: 2 --
+time passed: 1883
+--STATE: 2 --
+time passed: 1884
+--STATE: 2 --
+time passed: 1885
+--STATE: 2 --
+time passed: 1886
+--STATE: 2 --
+time passed: 1887
+--STATE: 2 --
+time passed: 1888
+--STATE: 2 --
+time passed: 1889
+--STATE: 2 --
+time passed: 1890
+--STATE: 2 --
+time passed: 1891
+--STATE: 2 --
+time passed: 1892
+--STATE: 2 --
+time passed: 1893
+--STATE: 2 --
+time passed: 1894
+--STATE: 2 --
+time passed: 1895
+--STATE: 2 --
+time passed: 1896
+--STATE: 2 --
+time passed: 1897
+--STATE: 2 --
+time passed: 1898
+--STATE: 2 --
+time passed: 1899
+--STATE: 2 --
+time passed: 1900
+--STATE: 2 --
+time passed: 1901
+--STATE: 2 --
+time passed: 1902
+--STATE: 2 --
+time passed: 1903
+--STATE: 2 --
+time passed: 1904
+--STATE: 2 --
+time passed: 1905
+--STATE: 2 --
+time passed: 1906
+--STATE: 2 --
+time passed: 1907
+--STATE: 2 --
+time passed: 1908
+--STATE: 2 --
+time passed: 1909
+--STATE: 2 --
+time passed: 1910
+--STATE: 2 --
+time passed: 1911
+--STATE: 2 --
+time passed: 1912
+--STATE: 2 --
+time passed: 1913
+--STATE: 2 --
+time passed: 1914
+--STATE: 2 --
+time passed: 1915
+--STATE: 2 --
+time passed: 1916
+--STATE: 2 --
+time passed: 1917
+--STATE: 2 --
+time passed: 1918
+--STATE: 2 --
+time passed: 1919
+--STATE: 2 --
+time passed: 1920
+--STATE: 2 --
+time passed: 1921
+--STATE: 2 --
+time passed: 1922
+--STATE: 2 --
+time passed: 1923
+--STATE: 2 --
+time passed: 1924
+--STATE: 2 --
+time passed: 1925
+--STATE: 2 --
+time passed: 1926
+--STATE: 2 --
+time passed: 1927
+--STATE: 2 --
+time passed: 1928
+--STATE: 2 --
+time passed: 1929
+--STATE: 2 --
+time passed: 1930
+--STATE: 2 --
+time passed: 1931
+--STATE: 2 --
+time passed: 1932
+--STATE: 2 --
+time passed: 1933
+--STATE: 2 --
+time passed: 1934
+--STATE: 2 --
+time passed: 1935
+--STATE: 2 --
+time passed: 1936
+--STATE: 2 --
+time passed: 1937
+--STATE: 2 --
+time passed: 1938
+--STATE: 2 --
+time passed: 1939
+--STATE: 2 --
+time passed: 1940
+--STATE: 2 --
+time passed: 1941
+--STATE: 2 --
+time passed: 1942
+--STATE: 2 --
+time passed: 1943
+--STATE: 2 --
+time passed: 1944
+--STATE: 2 --
+time passed: 1945
+--STATE: 2 --
+time passed: 1946
+--STATE: 2 --
+time passed: 1947
+--STATE: 2 --
+time passed: 1948
+--STATE: 2 --
+time passed: 1949
+--STATE: 2 --
+time passed: 1950
+--STATE: 2 --
+time passed: 1951
+--STATE: 2 --
+time passed: 1952
+--STATE: 2 --
+time passed: 1953
+--STATE: 2 --
+time passed: 1954
+--STATE: 2 --
+time passed: 1955
+--STATE: 2 --
+time passed: 1956
+--STATE: 2 --
+time passed: 1957
+--STATE: 2 --
+time passed: 1958
+--STATE: 2 --
+time passed: 1959
+--STATE: 2 --
+time passed: 1960
+--STATE: 2 --
+time passed: 1961
+--STATE: 2 --
+time passed: 1962
+--STATE: 2 --
+time passed: 1963
+--STATE: 2 --
+time passed: 1964
+--STATE: 2 --
+time passed: 1965
+--STATE: 2 --
+time passed: 1966
+--STATE: 2 --
+time passed: 1967
+--STATE: 2 --
+time passed: 1968
+--STATE: 2 --
+time passed: 1969
+--STATE: 2 --
+time passed: 1970
+--STATE: 2 --
+time passed: 1971
+--STATE: 2 --
+time passed: 1972
+--STATE: 2 --
+time passed: 1973
+--STATE: 2 --
+time passed: 1974
+--STATE: 2 --
+time passed: 1975
+--STATE: 2 --
+time passed: 1976
+--STATE: 2 --
+time passed: 1977
+--STATE: 2 --
+time passed: 1978
+--STATE: 2 --
+time passed: 1979
+--STATE: 2 --
+time passed: 1980
+--STATE: 2 --
+time passed: 1981
+--STATE: 2 --
+time passed: 1982
+--STATE: 2 --
+time passed: 1983
+--STATE: 2 --
+time passed: 1984
+--STATE: 2 --
+time passed: 1985
+--STATE: 2 --
+time passed: 1986
+--STATE: 2 --
+time passed: 1987
+--STATE: 2 --
+time passed: 1988
+--STATE: 2 --
+time passed: 1989
+--STATE: 2 --
+time passed: 1990
+--STATE: 2 --
+time passed: 1991
+--STATE: 2 --
+time passed: 1992
+--STATE: 2 --
+time passed: 1993
+--STATE: 2 --
+time passed: 1994
+--STATE: 2 --
+time passed: 1995
+--STATE: 2 --
+time passed: 1996
+--STATE: 2 --
+time passed: 1997
+--STATE: 2 --
+time passed: 1998
+--STATE: 2 --
+time passed: 1999
+--STATE: 2 --
+time passed: 2000
+--STATE: 2 --
+time passed: 2001
+--STATE: 2 --
+time passed: 2002
+--STATE: 2 --
+time passed: 2003
+--STATE: 2 --
+time passed: 2004
+--STATE: 2 --
+time passed: 2005
+--STATE: 2 --
+time passed: 2006
+--STATE: 2 --
+time passed: 2007
+--STATE: 2 --
+time passed: 2008
+--STATE: 2 --
+time passed: 2009
+--STATE: 2 --
+time passed: 2010
+--STATE: 2 --
+time passed: 2011
+--STATE: 2 --
+time passed: 2012
+--STATE: 2 --
+time passed: 2013
+--STATE: 2 --
+time passed: 2014
+--STATE: 2 --
+time passed: 2015
+--STATE: 2 --
+time passed: 2016
+--STATE: 2 --
+time passed: 2017
+--STATE: 2 --
+time passed: 2018
+--STATE: 2 --
+time passed: 2019
+--STATE: 2 --
+time passed: 2020
+--STATE: 2 --
+time passed: 2021
+--STATE: 2 --
+time passed: 2022
+--STATE: 2 --
+time passed: 2023
+--STATE: 2 --
+time passed: 2024
+--STATE: 2 --
+time passed: 2025
+--STATE: 2 --
+time passed: 2026
+--STATE: 2 --
+time passed: 2027
+--STATE: 2 --
+time passed: 2028
+--STATE: 2 --
+time passed: 2029
+--STATE: 2 --
+time passed: 2030
+--STATE: 2 --
+time passed: 2031
+--STATE: 2 --
+time passed: 2032
+--STATE: 2 --
+time passed: 2033
+--STATE: 2 --
+time passed: 2034
+--STATE: 2 --
+time passed: 2035
+--STATE: 2 --
+time passed: 2036
+--STATE: 2 --
+time passed: 2037
+--STATE: 2 --
+time passed: 2038
+--STATE: 2 --
+time passed: 2039
+--STATE: 2 --
+time passed: 2040
+--STATE: 2 --
+time passed: 2041
+--STATE: 2 --
+time passed: 2042
+--STATE: 2 --
+time passed: 2043
+--STATE: 2 --
+time passed: 2044
+--STATE: 2 --
+time passed: 2045
+--STATE: 2 --
+time passed: 2046
+--STATE: 2 --
+time passed: 2047
+--STATE: 2 --
+time passed: 2048
+--STATE: 2 --
+time passed: 2049
+--STATE: 2 --
+time passed: 2050
+--STATE: 2 --
+time passed: 2051
+--STATE: 2 --
+time passed: 2052
+--STATE: 2 --
+time passed: 2053
+--STATE: 2 --
+time passed: 2054
+--STATE: 2 --
+time passed: 2055
+--STATE: 2 --
+time passed: 2056
+--STATE: 2 --
+time passed: 2057
+--STATE: 2 --
+time passed: 2058
+--STATE: 2 --
+time passed: 2059
+--STATE: 2 --
+time passed: 2060
+--STATE: 2 --
+time passed: 2061
+--STATE: 2 --
+time passed: 2062
+--STATE: 2 --
+time passed: 2063
+--STATE: 2 --
+time passed: 2064
+--STATE: 2 --
+time passed: 2065
+--STATE: 2 --
+time passed: 2066
+--STATE: 2 --
+time passed: 2067
+--STATE: 2 --
+time passed: 2068
+--STATE: 2 --
+time passed: 2069
+--STATE: 2 --
+time passed: 2070
+--STATE: 2 --
+time passed: 2071
+--STATE: 2 --
+time passed: 2072
+--STATE: 2 --
+time passed: 2073
+--STATE: 2 --
+time passed: 2074
+--STATE: 2 --
+time passed: 2075
+--STATE: 2 --
+time passed: 2076
+--STATE: 2 --
+time passed: 2077
+--STATE: 2 --
+time passed: 2078
+--STATE: 2 --
+time passed: 2079
+--STATE: 2 --
+time passed: 2080
+--STATE: 2 --
+time passed: 2081
+--STATE: 2 --
+time passed: 2082
+--STATE: 2 --
+time passed: 2083
+--STATE: 2 --
+time passed: 2084
+--STATE: 2 --
+time passed: 2085
+--STATE: 2 --
+time passed: 2086
+--STATE: 2 --
+time passed: 2087
+--STATE: 2 --
+time passed: 2088
+--STATE: 2 --
+time passed: 2089
+--STATE: 2 --
+time passed: 2090
+--STATE: 2 --
+time passed: 2091
+--STATE: 2 --
+time passed: 2092
+--STATE: 2 --
+time passed: 2093
+--STATE: 2 --
+time passed: 2094
+--STATE: 2 --
+time passed: 2095
+--STATE: 2 --
+time passed: 2096
+--STATE: 2 --
+time passed: 2097
+--STATE: 2 --
+time passed: 2098
+--STATE: 2 --
+time passed: 2099
+--STATE: 2 --
+time passed: 2100
+--STATE: 2 --
+time passed: 2101
+--STATE: 2 --
+time passed: 2102
+--STATE: 2 --
+time passed: 2103
+--STATE: 2 --
+time passed: 2104
+--STATE: 2 --
+time passed: 2105
+--STATE: 2 --
+time passed: 2106
+--STATE: 2 --
+time passed: 2107
+--STATE: 2 --
+time passed: 2108
+--STATE: 2 --
+time passed: 2109
+--STATE: 2 --
+time passed: 2110
+--STATE: 2 --
+time passed: 2111
+--STATE: 2 --
+time passed: 2112
+--STATE: 2 --
+time passed: 2113
+--STATE: 2 --
+time passed: 2114
+--STATE: 2 --
+time passed: 2115
+--STATE: 2 --
+time passed: 2116
+--STATE: 2 --
+time passed: 2117
+--STATE: 2 --
+time passed: 2118
+--STATE: 2 --
+time passed: 2119
+--STATE: 2 --
+time passed: 2120
+--STATE: 2 --
+time passed: 2121
+--STATE: 2 --
+time passed: 2122
+--STATE: 2 --
+time passed: 2123
+--STATE: 2 --
+time passed: 2124
+--STATE: 2 --
+time passed: 2125
+--STATE: 2 --
+time passed: 2126
+--STATE: 2 --
+time passed: 2127
+--STATE: 2 --
+time passed: 2128
+--STATE: 2 --
+time passed: 2129
+--STATE: 2 --
+time passed: 2130
+--STATE: 2 --
+time passed: 2131
+--STATE: 2 --
+time passed: 2132
+--STATE: 2 --
+time passed: 2133
+--STATE: 2 --
+time passed: 2134
+--STATE: 2 --
+time passed: 2135
+--STATE: 2 --
+time passed: 2136
+--STATE: 2 --
+time passed: 2137
+--STATE: 2 --
+time passed: 2138
+--STATE: 2 --
+time passed: 2139
+--STATE: 2 --
+time passed: 2140
+--STATE: 2 --
+time passed: 2141
+--STATE: 2 --
+time passed: 2142
+--STATE: 2 --
+time passed: 2143
+--STATE: 2 --
+time passed: 2144
+--STATE: 2 --
+time passed: 2145
+--STATE: 2 --
+time passed: 2146
+--STATE: 2 --
+time passed: 2147
+--STATE: 2 --
+time passed: 2148
+--STATE: 2 --
+time passed: 4755
+--STATE: 2 --
+time passed: 4756
+--STATE: 2 --
+time passed: 4757
+--STATE: 2 --
+time passed: 4758
+--STATE: 2 --
+time passed: 4759
+--STATE: 2 --
+time passed: 4760
+--STATE: 2 --
+time passed: 4761
+--STATE: 2 --
+time passed: 4762
+--STATE: 2 --
+time passed: 4763
+--STATE: 2 --
+time passed: 4764
+--STATE: 2 --
+time passed: 4765
+--STATE: 2 --
+time passed: 4766
+--STATE: 2 --
+time passed: 4767
+--STATE: 2 --
+time passed: 4768
+--STATE: 2 --
+time passed: 4769
+--STATE: 2 --
+time passed: 4770
+--STATE: 2 --
+time passed: 4771
+--STATE: 2 --
+time passed: 4772
+--STATE: 2 --
+time passed: 4773
+--STATE: 2 --
+time passed: 4774
+--STATE: 2 --
+time passed: 4775
+--STATE: 2 --
+time passed: 4776
+--STATE: 2 --
+time passed: 4777
+--STATE: 2 --
+time passed: 4778
+--STATE: 2 --
+time passed: 4779
+--STATE: 2 --
+time passed: 4780
+--STATE: 2 --
+time passed: 4781
+--STATE: 2 --
+time passed: 4782
+--STATE: 2 --
+time passed: 4783
+--STATE: 2 --
+time passed: 4784
+--STATE: 2 --
+time passed: 4785
+--STATE: 2 --
+time passed: 4786
+--STATE: 2 --
+time passed: 4787
+--STATE: 2 --
+time passed: 4788
+--STATE: 2 --
+time passed: 4789
+--STATE: 2 --
+time passed: 4790
+--STATE: 2 --
+time passed: 4791
+--STATE: 2 --
+time passed: 4792
+--STATE: 2 --
+time passed: 4793
+--STATE: 2 --
+time passed: 4794
+--STATE: 2 --
+time passed: 4795
+--STATE: 2 --
+time passed: 4796
+--STATE: 2 --
+time passed: 4797
+--STATE: 2 --
+time passed: 4798
+--STATE: 2 --
+time passed: 4799
+--STATE: 2 --
+time passed: 4800
+--STATE: 2 --
