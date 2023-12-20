@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Arduino",
-            "compilerPath": "<<<ADD YOUR WORK DIRECTORY OR CREATE THE FILE USING VSCODE>>>",
+            "compilerPath": "/Users/francescopolcri/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
             "compilerArgs": [
                 "-w",
                 "-std=gnu++11",
@@ -16,12 +16,12 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                ".../Library/Arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino",
-                ".../Library/Arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard",
-                ".../Library/Arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src",
-                ".../Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include",
-                ".../Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed",
-                ".../Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino",
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/variants/standard",
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/libraries/Wire/src",
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include",
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed",
+                "/Users/francescopolcri/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
             ],
             "forcedInclude": [
                 "/Users/francescopolcri/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h"
